@@ -1,0 +1,197 @@
+[
+  {
+    "id": "mock-queue-b2f7ff63-4470-4ee6-a162-99fa5a525989",
+    "name": "Chat joyous Queue",
+    "description": "Delectus tumultus voluptates cursim.",
+    "dateModified": "2025-05-17T11:24:17.772Z",
+    "memberCount": 18,
+    "mediaSettings": {
+      "chat": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-b606b969-b1b2-4e62-ae9d-3efe950539dd",
+    "name": "Email average Queue",
+    "description": "Ascisco spes caute spectaculum enim condico vorax stultus.",
+    "dateModified": "2025-05-17T01:37:32.044Z",
+    "memberCount": 41,
+    "mediaSettings": {
+      "email": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-daea4cc9-4e6d-4497-b62d-4a57804f462f",
+    "name": "Voice gaseous Queue",
+    "description": "Vestrum approbo amplitudo hic tactus ascit laborum ulciscor vigilo apto.",
+    "dateModified": "2025-05-19T16:31:30.478Z",
+    "memberCount": 21,
+    "mediaSettings": {
+      "voice": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-a76782ff-236d-478d-939d-a059689775d8",
+    "name": "Email stylish Queue",
+    "description": "Tergum color qui trans adfero.",
+    "dateModified": "2025-05-29T16:59:24.139Z",
+    "memberCount": 36,
+    "mediaSettings": {
+      "email": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-6c8046d6-588c-4d6e-83ff-e1f8ce5043a0",
+    "name": "Chat optimal Queue",
+    "description": "Curso aufero vulgaris.",
+    "dateModified": "2025-06-03T21:24:50.644Z",
+    "memberCount": 43,
+    "mediaSettings": {
+      "chat": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-bf0f703b-65fb-4d25-9728-06d49056e1f3",
+    "name": "Social remarkable Queue",
+    "description": "Casus decerno statua surculus cetera timidus vulnero exercitationem spoliatio.",
+    "dateModified": "2025-05-13T01:52:42.784Z",
+    "memberCount": 14,
+    "mediaSettings": {
+      "social": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-ee54f08a-9ac0-4b37-bb16-ddf17771c484",
+    "name": "Social unfit Queue",
+    "description": "Terra pecco tandem thema blandior summa compello.",
+    "dateModified": "2025-05-13T17:40:14.444Z",
+    "memberCount": 43,
+    "mediaSettings": {
+      "social": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-4dcf2509-5e7e-4129-a778-d44230cecb41",
+    "name": "Email blond Queue",
+    "description": "Curo necessitatibus trucido tamdiu quasi laboriosam ullam corrupti deludo.",
+    "dateModified": "2025-06-04T05:24:33.042Z",
+    "memberCount": 24,
+    "mediaSettings": {
+      "email": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-ac941639-f7b8-4975-a283-ee31af386b4c",
+    "name": "Social frail Queue",
+    "description": "Sufficio colo aegre comedo constans dignissimos stella summa.",
+    "dateModified": "2025-05-11T07:55:53.058Z",
+    "memberCount": 19,
+    "mediaSettings": {
+      "social": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-d19e9674-e813-49b5-8fb4-3b0c1398e749",
+    "name": "Email odd Queue",
+    "description": "Adficio odit pecco ubi tenax.",
+    "dateModified": "2025-05-09T00:12:50.600Z",
+    "memberCount": 31,
+    "mediaSettings": {
+      "email": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-945fc8cc-b4b0-448b-96aa-fa30377b4053",
+    "name": "Email crushing Queue",
+    "description": "Cubitum eum defluo adiuvo.",
+    "dateModified": "2025-05-27T09:58:54.205Z",
+    "memberCount": 47,
+    "mediaSettings": {
+      "email": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-4044c868-49b8-42ae-8e0b-9376a632beb5",
+    "name": "Callback willing Queue",
+    "description": "Vivo uter terreo cohibeo.",
+    "dateModified": "2025-05-30T18:16:51.661Z",
+    "memberCount": 19,
+    "mediaSettings": {
+      "callback": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-44f82b65-064f-44a4-b90b-10b1859ff400",
+    "name": "Callback raw Queue",
+    "description": "Cupiditas viduo debilito conforto appositus.",
+    "dateModified": "2025-05-26T04:25:58.007Z",
+    "memberCount": 18,
+    "mediaSettings": {
+      "callback": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-b4dbd812-b1c4-44da-b21b-b20d091a595e",
+    "name": "Voice cautious Queue",
+    "description": "Deprecator viduo vivo alii ultio virga.",
+    "dateModified": "2025-05-31T18:53:01.866Z",
+    "memberCount": 8,
+    "mediaSettings": {
+      "voice": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  },
+  {
+    "id": "mock-queue-cee2d7c4-31eb-46d5-9a60-43a6a58ef07e",
+    "name": "Email shameless Queue",
+    "description": "Accommodo consequuntur spes solutio inventore.",
+    "dateModified": "2025-05-14T10:09:36.725Z",
+    "memberCount": 39,
+    "mediaSettings": {
+      "email": {
+        "enabled": true,
+        "skillEvaluationMethod": "BEST"
+      }
+    }
+  }
+]

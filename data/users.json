@@ -1,0 +1,2585 @@
+[
+  {
+    "id": "mock-e68d57ae-3762-463a-8eff-cddfabe49005",
+    "name": "Geovanny Stamm",
+    "email": "Geovanny_Stamm@yahoo.com",
+    "username": "Geovanny_Stamm",
+    "department": "HR",
+    "title": "Principal Infrastructure Assistant",
+    "state": "deactivated",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "438.282.2599 x11725",
+    "createdDate": "2023-07-25T02:18:51.468Z",
+    "lastModifiedDate": "2025-05-08T12:03:30.769Z",
+    "manager": null
+  },
+  {
+    "id": "mock-dcaf964a-6a77-4b1f-9ba2-30aed648dc95",
+    "name": "Celestine Bergstrom",
+    "email": "Celestine.Bergstrom23@hotmail.com",
+    "username": "Celestine_Bergstrom",
+    "department": "Finance",
+    "title": "Forward Division Liaison",
+    "state": "deactivated",
+    "presence": "MEETING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "(678) 365-3624 x4961",
+    "createdDate": "2023-10-26T06:04:34.456Z",
+    "lastModifiedDate": "2025-05-21T08:35:00.941Z",
+    "manager": null
+  },
+  {
+    "id": "mock-46692b02-2882-4b77-b9ea-f0ff50fe050b",
+    "name": "Estella Stark",
+    "email": "Estella_Stark@yahoo.com",
+    "username": "Estella.Stark",
+    "department": "Finance",
+    "title": "Chief Group Consultant",
+    "state": "inactive",
+    "presence": "AVAILABLE",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "308-795-6764",
+    "createdDate": "2025-01-29T14:24:41.230Z",
+    "lastModifiedDate": "2025-05-27T01:20:10.211Z",
+    "manager": {
+      "id": "mock-3e36891a-cf5b-4d2e-a45a-a56df9e797eb",
+      "name": "Gabriella Hilpert"
+    }
+  },
+  {
+    "id": "mock-53219a0b-d48c-40eb-8dcb-78db4b93fce6",
+    "name": "Nils Spencer",
+    "email": "Nils_Spencer96@gmail.com",
+    "username": "Nils_Spencer1",
+    "department": "Engineering",
+    "title": "Principal Assurance Agent",
+    "state": "inactive",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "544.256.6844 x116",
+    "createdDate": "2025-01-30T03:02:16.501Z",
+    "lastModifiedDate": "2025-05-10T06:52:47.849Z",
+    "manager": {
+      "id": "mock-478ffafd-8c7c-4e8d-bab1-6d361f9b3a47",
+      "name": "Bridgette Jacobson"
+    }
+  },
+  {
+    "id": "mock-1cca7dad-a8b5-4b5f-84c8-f90089437d8b",
+    "name": "Garry Howell",
+    "email": "Garry.Howell26@hotmail.com",
+    "username": "Garry.Howell",
+    "department": "Support",
+    "title": "International Accounts Supervisor",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "396-444-2807 x99452",
+    "createdDate": "2023-07-06T14:02:30.539Z",
+    "lastModifiedDate": "2025-05-18T11:52:26.913Z",
+    "manager": {
+      "id": "mock-332deb06-58c6-4dff-9d58-0f0700d8dc63",
+      "name": "Bo Cronin"
+    }
+  },
+  {
+    "id": "mock-870afadc-5a7e-4995-9bc3-b5679448b7b1",
+    "name": "Jammie Luettgen",
+    "email": "Jammie_Luettgen@yahoo.com",
+    "username": "Jammie.Luettgen",
+    "department": "Marketing",
+    "title": "District Accountability Facilitator",
+    "state": "active",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "IDLE",
+    "phoneNumber": "(996) 883-8197 x491",
+    "createdDate": "2024-10-06T11:12:13.941Z",
+    "lastModifiedDate": "2025-05-18T14:39:00.262Z",
+    "manager": {
+      "id": "mock-bfeae77a-7b0b-432d-965e-b6b26d332cd3",
+      "name": "Tiana Kutch"
+    }
+  },
+  {
+    "id": "mock-408fd583-d04f-4fbb-ae95-d87f184b60d8",
+    "name": "Elza McCullough",
+    "email": "Elza_McCullough15@hotmail.com",
+    "username": "Elza_McCullough",
+    "department": "Marketing",
+    "title": "Forward Mobility Planner",
+    "state": "inactive",
+    "presence": "BUSY",
+    "routingStatus": "IDLE",
+    "phoneNumber": "1-728-464-1342 x4618",
+    "createdDate": "2024-08-09T03:59:17.822Z",
+    "lastModifiedDate": "2025-05-16T01:58:08.261Z",
+    "manager": null
+  },
+  {
+    "id": "mock-e0ba5a98-fecd-4a1a-bbdb-654653985c34",
+    "name": "Susanna Olson",
+    "email": "Susanna.Olson86@gmail.com",
+    "username": "Susanna.Olson24",
+    "department": "HR",
+    "title": "International Intranet Planner",
+    "state": "deactivated",
+    "presence": "MEETING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "1-821-316-6219 x34520",
+    "createdDate": "2023-06-16T18:30:37.662Z",
+    "lastModifiedDate": "2025-05-14T03:39:38.222Z",
+    "manager": {
+      "id": "mock-96231f44-d946-4079-ba8e-82ebc764aaef",
+      "name": "Hilma Hammes"
+    }
+  },
+  {
+    "id": "mock-962d835b-d316-48fb-84d1-35a81d4e2df1",
+    "name": "Daron Reichert",
+    "email": "Daron_Reichert@hotmail.com",
+    "username": "Daron.Reichert",
+    "department": "Finance",
+    "title": "Lead Metrics Administrator",
+    "state": "inactive",
+    "presence": "BREAK",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "(947) 890-2754 x98344",
+    "createdDate": "2024-03-24T15:15:33.080Z",
+    "lastModifiedDate": "2025-05-29T06:24:22.653Z",
+    "manager": {
+      "id": "mock-a9afff22-d4dc-4a2b-9ef0-41981e3b9da7",
+      "name": "Jewel Kuhlman"
+    }
+  },
+  {
+    "id": "mock-131c6221-cd33-4236-8c22-d5c1a58164b2",
+    "name": "Carolyn Feil",
+    "email": "Carolyn.Feil@yahoo.com",
+    "username": "Carolyn.Feil",
+    "department": "Engineering",
+    "title": "Global Assurance Associate",
+    "state": "deactivated",
+    "presence": "BUSY",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "675-872-9740 x7368",
+    "createdDate": "2024-09-30T07:35:41.829Z",
+    "lastModifiedDate": "2025-06-03T13:30:29.755Z",
+    "manager": {
+      "id": "mock-11b3e58d-a48f-4735-9441-e7bad8a13a18",
+      "name": "Myrtice Schoen"
+    }
+  },
+  {
+    "id": "mock-249aff4e-12f1-4581-92c0-f8eea1ced4f6",
+    "name": "Russell Champlin",
+    "email": "Russell_Champlin@yahoo.com",
+    "username": "Russell_Champlin",
+    "department": "Engineering",
+    "title": "District Web Administrator",
+    "state": "deactivated",
+    "presence": "AVAILABLE",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "928-307-0441 x438",
+    "createdDate": "2024-12-28T07:08:50.679Z",
+    "lastModifiedDate": "2025-06-01T17:05:59.029Z",
+    "manager": null
+  },
+  {
+    "id": "mock-d9ef60fb-370c-437a-afe5-e9ee9521efb6",
+    "name": "Laurence Roob",
+    "email": "Laurence_Roob80@hotmail.com",
+    "username": "Laurence_Roob",
+    "department": "Engineering",
+    "title": "National Communications Developer",
+    "state": "deactivated",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "1-210-643-2613 x95919",
+    "createdDate": "2025-01-31T08:30:18.512Z",
+    "lastModifiedDate": "2025-05-30T20:37:04.722Z",
+    "manager": {
+      "id": "mock-6b2bb86b-0d02-4e78-895b-d813c36ac759",
+      "name": "Marcelino Shields"
+    }
+  },
+  {
+    "id": "mock-640b76d5-85e5-4dbd-b617-d11cb8507ea4",
+    "name": "Arlene Stracke",
+    "email": "Arlene_Stracke@yahoo.com",
+    "username": "Arlene_Stracke",
+    "department": "Marketing",
+    "title": "Regional Quality Assistant",
+    "state": "deactivated",
+    "presence": "AWAY",
+    "routingStatus": "IDLE",
+    "phoneNumber": "1-233-504-5505",
+    "createdDate": "2025-04-15T03:49:52.048Z",
+    "lastModifiedDate": "2025-05-23T08:25:06.384Z",
+    "manager": {
+      "id": "mock-723f5272-35e5-4344-aef1-199ce4e37ef2",
+      "name": "Keeley Herman"
+    }
+  },
+  {
+    "id": "mock-9b9d2743-934c-4384-a9f7-094ddc1013cf",
+    "name": "Irma Kreiger",
+    "email": "Irma_Kreiger21@gmail.com",
+    "username": "Irma_Kreiger42",
+    "department": "Support",
+    "title": "Future Response Designer",
+    "state": "active",
+    "presence": "MEETING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "514.845.2462",
+    "createdDate": "2023-07-10T20:34:15.010Z",
+    "lastModifiedDate": "2025-05-07T22:53:21.777Z",
+    "manager": {
+      "id": "mock-1ae7a7df-2830-4795-8f29-920465a40adc",
+      "name": "Veronica Hansen"
+    }
+  },
+  {
+    "id": "mock-a44dbe20-3a16-49a1-bd9b-33e917100d71",
+    "name": "Modesta Crona",
+    "email": "Modesta.Crona@yahoo.com",
+    "username": "Modesta_Crona",
+    "department": "Operations",
+    "title": "Central Paradigm Associate",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "854.395.4369 x442",
+    "createdDate": "2023-12-04T04:33:21.393Z",
+    "lastModifiedDate": "2025-05-21T10:44:35.128Z",
+    "manager": null
+  },
+  {
+    "id": "mock-a10d3c07-6e56-4ddc-b7aa-a941f3ebd2d5",
+    "name": "Jarod Bednar",
+    "email": "Jarod.Bednar51@hotmail.com",
+    "username": "Jarod_Bednar4",
+    "department": "Operations",
+    "title": "Human Optimization Administrator",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "1-560-960-8575",
+    "createdDate": "2024-12-31T12:18:00.937Z",
+    "lastModifiedDate": "2025-05-17T00:14:08.567Z",
+    "manager": {
+      "id": "mock-efa014ef-ed39-42d8-a7ef-b0602aed6521",
+      "name": "Manuela Towne-Rohan"
+    }
+  },
+  {
+    "id": "mock-3557ceb0-be20-443d-afa7-d0657df51a76",
+    "name": "Dessie Farrell",
+    "email": "Dessie_Farrell@yahoo.com",
+    "username": "Dessie_Farrell53",
+    "department": "Marketing",
+    "title": "Customer Markets Developer",
+    "state": "inactive",
+    "presence": "BUSY",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "310-380-7243",
+    "createdDate": "2023-12-03T00:38:51.794Z",
+    "lastModifiedDate": "2025-05-12T10:05:21.165Z",
+    "manager": {
+      "id": "mock-d9ca7067-e6c2-4abb-bf09-48b682044965",
+      "name": "Malachi Ward"
+    }
+  },
+  {
+    "id": "mock-13394c5c-08a6-4040-8245-a3d1ac0bb845",
+    "name": "Kacey O'Kon",
+    "email": "Kacey.OKon82@gmail.com",
+    "username": "Kacey_OKon",
+    "department": "Marketing",
+    "title": "District Quality Supervisor",
+    "state": "deactivated",
+    "presence": "BREAK",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "1-912-748-8670 x03532",
+    "createdDate": "2023-11-25T06:16:07.715Z",
+    "lastModifiedDate": "2025-05-22T03:03:56.710Z",
+    "manager": {
+      "id": "mock-8f7be791-5de6-4596-9e60-59364f970b51",
+      "name": "Annamarie Friesen-Kilback"
+    }
+  },
+  {
+    "id": "mock-c8cdc677-013a-438f-b1cc-09f8b782cd72",
+    "name": "Adrain Krajcik",
+    "email": "Adrain_Krajcik@gmail.com",
+    "username": "Adrain_Krajcik44",
+    "department": "HR",
+    "title": "Global Web Consultant",
+    "state": "inactive",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "1-334-792-8983 x88409",
+    "createdDate": "2024-01-24T04:59:34.392Z",
+    "lastModifiedDate": "2025-06-04T18:34:08.851Z",
+    "manager": {
+      "id": "mock-fa675826-66c1-4f00-ac57-7e0417b9c627",
+      "name": "Albin Lakin"
+    }
+  },
+  {
+    "id": "mock-e0017471-374e-4fbf-92fe-a15206a8ee24",
+    "name": "Angie Robel",
+    "email": "Angie.Robel96@yahoo.com",
+    "username": "Angie.Robel",
+    "department": "Engineering",
+    "title": "International Group Assistant",
+    "state": "deactivated",
+    "presence": "MEETING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "(778) 659-5709 x1070",
+    "createdDate": "2024-04-11T02:00:30.834Z",
+    "lastModifiedDate": "2025-05-21T20:42:45.749Z",
+    "manager": null
+  },
+  {
+    "id": "mock-a10e7587-b098-4314-be2b-4653b15fad19",
+    "name": "Jennyfer Schuppe-Paucek",
+    "email": "Jennyfer.Schuppe-Paucek@hotmail.com",
+    "username": "Jennyfer.Schuppe-Paucek",
+    "department": "Support",
+    "title": "Customer Web Agent",
+    "state": "deactivated",
+    "presence": "AWAY",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "1-998-613-2196 x82482",
+    "createdDate": "2024-01-06T00:15:53.059Z",
+    "lastModifiedDate": "2025-05-23T07:04:49.764Z",
+    "manager": {
+      "id": "mock-694f82d6-9d9a-44f2-bf50-67661602bf22",
+      "name": "Miguel Reichert"
+    }
+  },
+  {
+    "id": "mock-26e8bea9-70d3-4b12-b3d5-7f02fe923d67",
+    "name": "Isabell Ullrich",
+    "email": "Isabell.Ullrich32@gmail.com",
+    "username": "Isabell.Ullrich",
+    "department": "HR",
+    "title": "Principal Communications Administrator",
+    "state": "inactive",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "IDLE",
+    "phoneNumber": "(246) 293-8319 x995",
+    "createdDate": "2025-03-17T01:47:03.983Z",
+    "lastModifiedDate": "2025-05-06T22:49:18.843Z",
+    "manager": {
+      "id": "mock-d5bfbea9-0646-43b1-9a9d-e7a20f3020e4",
+      "name": "Lou Cormier"
+    }
+  },
+  {
+    "id": "mock-dca979f8-89c4-4f7e-893e-e3d344acf5b5",
+    "name": "Eladio Pfannerstill",
+    "email": "Eladio.Pfannerstill87@gmail.com",
+    "username": "Eladio_Pfannerstill",
+    "department": "Support",
+    "title": "Human Data Facilitator",
+    "state": "active",
+    "presence": "BREAK",
+    "routingStatus": "IDLE",
+    "phoneNumber": "558-610-4080 x6563",
+    "createdDate": "2025-04-06T07:20:08.623Z",
+    "lastModifiedDate": "2025-05-17T23:00:52.969Z",
+    "manager": {
+      "id": "mock-d0b81a24-e212-4cef-9c83-515425db0abe",
+      "name": "Burley Sporer"
+    }
+  },
+  {
+    "id": "mock-8792acec-a16a-48f7-a8b5-118c4410c846",
+    "name": "Gaetano Walsh",
+    "email": "Gaetano_Walsh79@yahoo.com",
+    "username": "Gaetano_Walsh",
+    "department": "HR",
+    "title": "Investor Communications Agent",
+    "state": "active",
+    "presence": "AVAILABLE",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "257-930-4058 x12624",
+    "createdDate": "2024-03-13T07:11:10.950Z",
+    "lastModifiedDate": "2025-06-02T23:40:00.941Z",
+    "manager": {
+      "id": "mock-712edc06-be3e-49a0-953e-86e9ab62c371",
+      "name": "Lacey Wisoky"
+    }
+  },
+  {
+    "id": "mock-027a2318-e878-4bc5-869b-935e70111343",
+    "name": "Aditya MacGyver",
+    "email": "Aditya_MacGyver20@gmail.com",
+    "username": "Aditya.MacGyver",
+    "department": "Support",
+    "title": "National Markets Executive",
+    "state": "deactivated",
+    "presence": "BREAK",
+    "routingStatus": "IDLE",
+    "phoneNumber": "(368) 689-6274 x294",
+    "createdDate": "2023-10-07T07:28:45.649Z",
+    "lastModifiedDate": "2025-06-05T02:03:13.746Z",
+    "manager": {
+      "id": "mock-7bef2bde-fab1-4c63-bd6e-68a4ee66bb5d",
+      "name": "Alexandro Abshire"
+    }
+  },
+  {
+    "id": "mock-80e678c1-b97e-4a68-a0d2-9bd116e371c5",
+    "name": "Elnora Osinski",
+    "email": "Elnora_Osinski11@gmail.com",
+    "username": "Elnora_Osinski",
+    "department": "HR",
+    "title": "Human Security Planner",
+    "state": "inactive",
+    "presence": "MEETING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "509-649-3130 x780",
+    "createdDate": "2024-12-05T11:07:51.596Z",
+    "lastModifiedDate": "2025-06-02T00:30:49.502Z",
+    "manager": {
+      "id": "mock-e18b4364-b9f1-48bd-ad68-5217fa531859",
+      "name": "Gwendolyn Abshire"
+    }
+  },
+  {
+    "id": "mock-4542d341-b721-4cb5-b619-b0516cd073ac",
+    "name": "Jerrod Hane",
+    "email": "Jerrod_Hane8@hotmail.com",
+    "username": "Jerrod.Hane",
+    "department": "HR",
+    "title": "Forward Division Agent",
+    "state": "deactivated",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "932-885-8434",
+    "createdDate": "2024-08-07T05:27:34.196Z",
+    "lastModifiedDate": "2025-05-21T12:02:17.974Z",
+    "manager": {
+      "id": "mock-5c2a421b-173b-4be6-806b-1bb9cfdafa79",
+      "name": "Morris Hand"
+    }
+  },
+  {
+    "id": "mock-0d316431-4552-46a1-9f8e-fddca2d35cc6",
+    "name": "Sidney Tillman",
+    "email": "Sidney.Tillman18@hotmail.com",
+    "username": "Sidney.Tillman",
+    "department": "Finance",
+    "title": "Internal Tactics Representative",
+    "state": "deactivated",
+    "presence": "MEETING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "861-708-4928",
+    "createdDate": "2024-10-23T06:26:01.597Z",
+    "lastModifiedDate": "2025-05-25T23:06:52.860Z",
+    "manager": {
+      "id": "mock-c449e75d-4d3a-4168-89ce-7e4101681b0c",
+      "name": "Hazel Green"
+    }
+  },
+  {
+    "id": "mock-ec15175d-3cbb-42b2-b8c0-5ff86dc2f9d6",
+    "name": "Maximus Beer",
+    "email": "Maximus.Beer38@yahoo.com",
+    "username": "Maximus_Beer79",
+    "department": "HR",
+    "title": "Future Intranet Representative",
+    "state": "inactive",
+    "presence": "TRAINING",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "961-640-3630",
+    "createdDate": "2024-04-14T03:08:28.639Z",
+    "lastModifiedDate": "2025-05-18T09:12:41.167Z",
+    "manager": null
+  },
+  {
+    "id": "mock-559b202f-7a09-451c-bcb4-c96de32582bb",
+    "name": "Brennon Schimmel",
+    "email": "Brennon.Schimmel@gmail.com",
+    "username": "Brennon_Schimmel",
+    "department": "HR",
+    "title": "Direct Factors Assistant",
+    "state": "active",
+    "presence": "TRAINING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "623-445-2973 x9502",
+    "createdDate": "2025-04-06T06:06:04.400Z",
+    "lastModifiedDate": "2025-05-21T18:57:52.457Z",
+    "manager": null
+  },
+  {
+    "id": "mock-ad1f743a-1c88-4add-b465-bba8052a9b35",
+    "name": "Theodora Ratke",
+    "email": "Theodora_Ratke7@gmail.com",
+    "username": "Theodora.Ratke",
+    "department": "Marketing",
+    "title": "Dynamic Usability Strategist",
+    "state": "inactive",
+    "presence": "BREAK",
+    "routingStatus": "IDLE",
+    "phoneNumber": "334-336-8095 x2986",
+    "createdDate": "2024-03-22T12:10:49.656Z",
+    "lastModifiedDate": "2025-05-28T08:33:23.131Z",
+    "manager": {
+      "id": "mock-52206690-aca9-497e-84f1-151b6d8f9dbe",
+      "name": "Jeramy Weber"
+    }
+  },
+  {
+    "id": "mock-79695886-e5aa-4050-a3b9-fad3e3108d88",
+    "name": "Eddie Skiles",
+    "email": "Eddie.Skiles66@hotmail.com",
+    "username": "Eddie.Skiles95",
+    "department": "Finance",
+    "title": "Direct Branding Developer",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "1-400-870-4499 x73568",
+    "createdDate": "2024-09-07T14:13:37.103Z",
+    "lastModifiedDate": "2025-05-07T17:13:33.099Z",
+    "manager": {
+      "id": "mock-75103f5d-b201-41bd-a6d4-18f83957450f",
+      "name": "Leslie Rosenbaum"
+    }
+  },
+  {
+    "id": "mock-b1987f8f-53c5-49c2-8e95-4a05aacd2776",
+    "name": "Bryana Abernathy",
+    "email": "Bryana.Abernathy4@gmail.com",
+    "username": "Bryana_Abernathy24",
+    "department": "Support",
+    "title": "Direct Functionality Executive",
+    "state": "inactive",
+    "presence": "BUSY",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "(438) 921-1640",
+    "createdDate": "2024-08-25T21:25:30.423Z",
+    "lastModifiedDate": "2025-05-28T23:18:49.357Z",
+    "manager": {
+      "id": "mock-205f0eef-66a5-4185-b6d4-02e417ccde5c",
+      "name": "Hillary Waters"
+    }
+  },
+  {
+    "id": "mock-41e7803a-7ac2-4f93-94d6-f363f906a37a",
+    "name": "Lou Wisozk",
+    "email": "Lou_Wisozk52@hotmail.com",
+    "username": "Lou.Wisozk",
+    "department": "Marketing",
+    "title": "National Response Analyst",
+    "state": "active",
+    "presence": "TRAINING",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "278.293.0461 x7271",
+    "createdDate": "2023-08-18T23:31:48.306Z",
+    "lastModifiedDate": "2025-05-12T15:25:57.620Z",
+    "manager": {
+      "id": "mock-17928c79-f176-4790-806e-116fc8d03f87",
+      "name": "Hudson Flatley"
+    }
+  },
+  {
+    "id": "mock-d50c1a3c-53e4-4ad9-90fc-421e7e737915",
+    "name": "Ally Feeney",
+    "email": "Ally.Feeney@hotmail.com",
+    "username": "Ally_Feeney37",
+    "department": "HR",
+    "title": "Direct Metrics Liaison",
+    "state": "deactivated",
+    "presence": "BUSY",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "211.603.4321 x15741",
+    "createdDate": "2025-04-01T12:14:27.827Z",
+    "lastModifiedDate": "2025-05-20T23:48:48.522Z",
+    "manager": null
+  },
+  {
+    "id": "mock-7b80eaff-1c0a-4107-b5f5-64e0f6507e44",
+    "name": "Geraldine Blanda",
+    "email": "Geraldine_Blanda@hotmail.com",
+    "username": "Geraldine.Blanda",
+    "department": "Marketing",
+    "title": "Senior Marketing Representative",
+    "state": "deactivated",
+    "presence": "AVAILABLE",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "1-917-778-4619 x37477",
+    "createdDate": "2025-03-28T09:38:09.864Z",
+    "lastModifiedDate": "2025-05-27T16:00:19.698Z",
+    "manager": null
+  },
+  {
+    "id": "mock-76765d99-ee32-40cc-a21f-4386a991bed7",
+    "name": "Pierre Brekke",
+    "email": "Pierre_Brekke29@hotmail.com",
+    "username": "Pierre_Brekke19",
+    "department": "Support",
+    "title": "Senior Identity Supervisor",
+    "state": "inactive",
+    "presence": "BREAK",
+    "routingStatus": "IDLE",
+    "phoneNumber": "691.905.6709 x51566",
+    "createdDate": "2025-02-12T14:19:14.391Z",
+    "lastModifiedDate": "2025-05-20T22:53:10.148Z",
+    "manager": {
+      "id": "mock-16377a5a-ed31-4bad-9211-32bf6c0a893e",
+      "name": "Al Sipes"
+    }
+  },
+  {
+    "id": "mock-08416ca1-047b-4ffd-b645-14fa898ec227",
+    "name": "Jessica Donnelly",
+    "email": "Jessica.Donnelly@gmail.com",
+    "username": "Jessica_Donnelly28",
+    "department": "HR",
+    "title": "Internal Communications Director",
+    "state": "deactivated",
+    "presence": "AWAY",
+    "routingStatus": "IDLE",
+    "phoneNumber": "970-533-6715 x366",
+    "createdDate": "2024-10-20T06:37:15.846Z",
+    "lastModifiedDate": "2025-05-31T02:22:29.307Z",
+    "manager": null
+  },
+  {
+    "id": "mock-270e6754-030c-4b13-ba45-63f88aaa68c6",
+    "name": "Caitlyn Feil",
+    "email": "Caitlyn.Feil@hotmail.com",
+    "username": "Caitlyn.Feil6",
+    "department": "Engineering",
+    "title": "Customer Implementation Technician",
+    "state": "active",
+    "presence": "TRAINING",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "(351) 737-6558 x29812",
+    "createdDate": "2025-03-01T11:59:05.178Z",
+    "lastModifiedDate": "2025-05-09T22:50:13.444Z",
+    "manager": {
+      "id": "mock-c3cc3adf-2955-4f12-98c6-88f5fb767356",
+      "name": "Israel Upton"
+    }
+  },
+  {
+    "id": "mock-79b21476-ffb7-4508-9720-6ff0d1ff8312",
+    "name": "Rosa McKenzie",
+    "email": "Rosa_McKenzie@gmail.com",
+    "username": "Rosa_McKenzie",
+    "department": "HR",
+    "title": "International Applications Engineer",
+    "state": "active",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "IDLE",
+    "phoneNumber": "1-737-629-6939 x5068",
+    "createdDate": "2024-06-07T10:52:15.167Z",
+    "lastModifiedDate": "2025-05-09T09:39:54.350Z",
+    "manager": {
+      "id": "mock-92860cae-0639-4ecd-afe1-f692573a75ea",
+      "name": "Magali Hagenes"
+    }
+  },
+  {
+    "id": "mock-0b52a7ff-94c0-4f71-af5c-56b8eab2517c",
+    "name": "Cecelia Blanda",
+    "email": "Cecelia.Blanda55@hotmail.com",
+    "username": "Cecelia.Blanda53",
+    "department": "Support",
+    "title": "Principal Creative Engineer",
+    "state": "deactivated",
+    "presence": "BREAK",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "758.345.7280 x2139",
+    "createdDate": "2025-02-23T00:59:32.913Z",
+    "lastModifiedDate": "2025-06-03T00:08:00.084Z",
+    "manager": {
+      "id": "mock-08f62337-3c2a-4cd5-bcba-f9822b9c49cf",
+      "name": "Garnett Mayer"
+    }
+  },
+  {
+    "id": "mock-275c51aa-3876-41f2-ac37-44ece60688d2",
+    "name": "Maryse Lynch",
+    "email": "Maryse_Lynch@hotmail.com",
+    "username": "Maryse.Lynch66",
+    "department": "Operations",
+    "title": "Global Quality Developer",
+    "state": "inactive",
+    "presence": "BREAK",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "1-682-952-0442",
+    "createdDate": "2025-03-22T08:59:12.345Z",
+    "lastModifiedDate": "2025-05-31T02:02:15.993Z",
+    "manager": {
+      "id": "mock-51f55d31-692e-4205-91d4-ef5e9fb30519",
+      "name": "Alisa Jacobson"
+    }
+  },
+  {
+    "id": "mock-4a6de4ac-9e42-43fb-a55a-b223bbbeb8bf",
+    "name": "Madison Towne",
+    "email": "Madison_Towne20@yahoo.com",
+    "username": "Madison.Towne",
+    "department": "Finance",
+    "title": "National Security Supervisor",
+    "state": "deactivated",
+    "presence": "BUSY",
+    "routingStatus": "IDLE",
+    "phoneNumber": "525-450-5791",
+    "createdDate": "2024-01-19T03:49:11.163Z",
+    "lastModifiedDate": "2025-05-11T04:53:27.272Z",
+    "manager": {
+      "id": "mock-7d22f53c-1817-49f3-9036-68785611b1d7",
+      "name": "Raheem Sauer"
+    }
+  },
+  {
+    "id": "mock-bddfa009-9727-4ea7-8a00-5329a0abf20e",
+    "name": "Cameron Mueller",
+    "email": "Cameron_Mueller@hotmail.com",
+    "username": "Cameron.Mueller77",
+    "department": "Marketing",
+    "title": "Senior Group Strategist",
+    "state": "active",
+    "presence": "MEAL",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "(232) 400-5353 x272",
+    "createdDate": "2024-10-05T03:22:40.508Z",
+    "lastModifiedDate": "2025-06-04T04:53:01.669Z",
+    "manager": {
+      "id": "mock-8429f0ac-79d2-484e-80f6-71817beb20c9",
+      "name": "Eugene Greenholt"
+    }
+  },
+  {
+    "id": "mock-cbd3e960-96cd-43f3-a0bc-eb04de2395f6",
+    "name": "Hosea Lueilwitz-Carter",
+    "email": "Hosea.Lueilwitz-Carter94@hotmail.com",
+    "username": "Hosea_Lueilwitz-Carter",
+    "department": "Finance",
+    "title": "Legacy Metrics Facilitator",
+    "state": "active",
+    "presence": "TRAINING",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "(697) 635-9622 x4095",
+    "createdDate": "2023-12-26T22:29:49.164Z",
+    "lastModifiedDate": "2025-05-22T12:59:54.554Z",
+    "manager": {
+      "id": "mock-00c8235c-ad37-4bb5-b149-06d64fede8b8",
+      "name": "Wilfred MacGyver"
+    }
+  },
+  {
+    "id": "mock-263e71a7-fbf4-4dee-ac31-619991dc1a80",
+    "name": "Lacey Blanda",
+    "email": "Lacey.Blanda32@hotmail.com",
+    "username": "Lacey.Blanda",
+    "department": "Finance",
+    "title": "Legacy Optimization Supervisor",
+    "state": "active",
+    "presence": "AWAY",
+    "routingStatus": "IDLE",
+    "phoneNumber": "317.537.6574 x57884",
+    "createdDate": "2024-09-30T03:14:07.847Z",
+    "lastModifiedDate": "2025-05-14T10:57:54.434Z",
+    "manager": {
+      "id": "mock-25f5b381-526b-41ca-9ca9-45e00c7fc70c",
+      "name": "Marques Stiedemann"
+    }
+  },
+  {
+    "id": "mock-b85b1141-ebfc-483a-85c8-938fde5ac200",
+    "name": "Roslyn Brown",
+    "email": "Roslyn_Brown@yahoo.com",
+    "username": "Roslyn.Brown14",
+    "department": "Engineering",
+    "title": "Future Factors Representative",
+    "state": "inactive",
+    "presence": "AVAILABLE",
+    "routingStatus": "IDLE",
+    "phoneNumber": "305-805-8561 x98929",
+    "createdDate": "2024-12-22T17:02:55.911Z",
+    "lastModifiedDate": "2025-05-11T04:31:21.805Z",
+    "manager": {
+      "id": "mock-939cc689-3b6d-4ae2-a2d2-06ece4926519",
+      "name": "Griffin Windler"
+    }
+  },
+  {
+    "id": "mock-41c3ab33-2cbf-4981-8cb7-e772b201e3aa",
+    "name": "Brain O'Hara",
+    "email": "Brain.OHara@hotmail.com",
+    "username": "Brain_OHara64",
+    "department": "Finance",
+    "title": "Future Brand Orchestrator",
+    "state": "inactive",
+    "presence": "MEETING",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "(377) 345-4052",
+    "createdDate": "2025-03-25T13:15:29.815Z",
+    "lastModifiedDate": "2025-05-17T21:50:38.728Z",
+    "manager": {
+      "id": "mock-a36f4ddc-55fc-4566-a21a-1c53133fc443",
+      "name": "Johnson Mayert"
+    }
+  },
+  {
+    "id": "mock-1bcf2365-7326-4911-8c57-4648be059f27",
+    "name": "Twila Rowe",
+    "email": "Twila_Rowe@yahoo.com",
+    "username": "Twila.Rowe2",
+    "department": "Engineering",
+    "title": "Legacy Brand Officer",
+    "state": "deactivated",
+    "presence": "MEAL",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "(808) 340-9305",
+    "createdDate": "2024-05-15T08:08:49.117Z",
+    "lastModifiedDate": "2025-05-29T16:19:46.959Z",
+    "manager": {
+      "id": "mock-9d631601-b95d-4588-9cb3-6f86598cfe23",
+      "name": "Jasen Kassulke"
+    }
+  },
+  {
+    "id": "mock-fd21c5bd-a5a9-47d4-87f6-f75769500fa5",
+    "name": "Kailey Mueller",
+    "email": "Kailey_Mueller22@yahoo.com",
+    "username": "Kailey.Mueller32",
+    "department": "Engineering",
+    "title": "Forward Assurance Coordinator",
+    "state": "active",
+    "presence": "AWAY",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "508-771-9695 x1243",
+    "createdDate": "2023-09-26T14:56:13.504Z",
+    "lastModifiedDate": "2025-05-17T10:12:28.172Z",
+    "manager": {
+      "id": "mock-bfc491eb-55c6-48aa-9e54-63791446c193",
+      "name": "Theron Koss"
+    }
+  },
+  {
+    "id": "mock-d51a0563-b85c-4535-bce3-6876c3232219",
+    "name": "Rudy O'Hara",
+    "email": "Rudy_OHara@gmail.com",
+    "username": "Rudy.OHara",
+    "department": "Marketing",
+    "title": "Global Communications Manager",
+    "state": "active",
+    "presence": "MEETING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "1-938-244-9395 x07402",
+    "createdDate": "2025-03-28T05:46:54.273Z",
+    "lastModifiedDate": "2025-06-03T19:20:36.560Z",
+    "manager": {
+      "id": "mock-816c2e97-c6eb-46ca-af5b-b1af859bbe5f",
+      "name": "Hilma Rolfson"
+    }
+  },
+  {
+    "id": "mock-314a101b-230e-499c-9567-faaeb27ac64b",
+    "name": "Megane Orn",
+    "email": "Megane.Orn5@hotmail.com",
+    "username": "Megane_Orn53",
+    "department": "Sales",
+    "title": "Future Infrastructure Architect",
+    "state": "inactive",
+    "presence": "MEETING",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "840-222-6925 x37094",
+    "createdDate": "2024-05-08T23:07:26.241Z",
+    "lastModifiedDate": "2025-05-19T01:11:06.321Z",
+    "manager": null
+  },
+  {
+    "id": "mock-572b721c-ce10-46e7-8d71-d2e26e01bdf1",
+    "name": "Dolores Schmidt",
+    "email": "Dolores.Schmidt1@hotmail.com",
+    "username": "Dolores_Schmidt",
+    "department": "Sales",
+    "title": "Central Integration Orchestrator",
+    "state": "deactivated",
+    "presence": "BUSY",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "737.909.3552 x78207",
+    "createdDate": "2024-04-06T06:03:42.281Z",
+    "lastModifiedDate": "2025-05-19T03:44:54.233Z",
+    "manager": {
+      "id": "mock-d4e40a5f-3fa7-4fb4-bb82-4234c427b880",
+      "name": "Jammie Tremblay"
+    }
+  },
+  {
+    "id": "mock-ca166a46-2ea0-4e2b-aa6f-b2c5b66b35be",
+    "name": "Elyssa Daugherty",
+    "email": "Elyssa.Daugherty@hotmail.com",
+    "username": "Elyssa_Daugherty18",
+    "department": "Marketing",
+    "title": "Legacy Interactions Liaison",
+    "state": "inactive",
+    "presence": "MEETING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "(631) 427-1681",
+    "createdDate": "2024-08-16T17:00:53.746Z",
+    "lastModifiedDate": "2025-05-18T11:37:34.087Z",
+    "manager": null
+  },
+  {
+    "id": "mock-f5220b7c-008e-4a5d-a70a-019b27985a11",
+    "name": "Lionel Mayer",
+    "email": "Lionel_Mayer80@gmail.com",
+    "username": "Lionel_Mayer10",
+    "department": "HR",
+    "title": "Future Markets Producer",
+    "state": "deactivated",
+    "presence": "MEAL",
+    "routingStatus": "IDLE",
+    "phoneNumber": "221.683.3734 x837",
+    "createdDate": "2024-01-29T12:07:19.305Z",
+    "lastModifiedDate": "2025-05-14T23:19:03.548Z",
+    "manager": {
+      "id": "mock-9084b6e5-e914-41fa-8b8f-50f4f3049f6c",
+      "name": "Willie Aufderhar"
+    }
+  },
+  {
+    "id": "mock-a42e9eca-3945-4ac7-8442-4c7035e95890",
+    "name": "Bartholome Rippin",
+    "email": "Bartholome.Rippin@hotmail.com",
+    "username": "Bartholome_Rippin3",
+    "department": "Marketing",
+    "title": "Product Factors Developer",
+    "state": "deactivated",
+    "presence": "AWAY",
+    "routingStatus": "IDLE",
+    "phoneNumber": "1-931-372-5073 x30661",
+    "createdDate": "2025-02-09T21:40:14.052Z",
+    "lastModifiedDate": "2025-06-01T06:44:45.343Z",
+    "manager": {
+      "id": "mock-f101dfa0-8794-4e2b-b6ef-98ccedc8d92f",
+      "name": "Nigel Beahan"
+    }
+  },
+  {
+    "id": "mock-fc3e79dd-8ad4-4919-8d2d-2a41f72bf9e9",
+    "name": "Mekhi Stoltenberg",
+    "email": "Mekhi_Stoltenberg36@hotmail.com",
+    "username": "Mekhi.Stoltenberg",
+    "department": "Engineering",
+    "title": "District Creative Manager",
+    "state": "inactive",
+    "presence": "AVAILABLE",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "1-332-340-1554",
+    "createdDate": "2025-02-27T21:59:04.998Z",
+    "lastModifiedDate": "2025-05-21T17:19:11.612Z",
+    "manager": null
+  },
+  {
+    "id": "mock-d6b3e653-7a0d-4f11-8d91-71b5b363d09c",
+    "name": "Reva Schuppe",
+    "email": "Reva_Schuppe@gmail.com",
+    "username": "Reva_Schuppe",
+    "department": "Support",
+    "title": "Legacy Paradigm Director",
+    "state": "deactivated",
+    "presence": "BREAK",
+    "routingStatus": "IDLE",
+    "phoneNumber": "702-475-0829",
+    "createdDate": "2023-10-06T07:18:02.637Z",
+    "lastModifiedDate": "2025-05-26T14:43:17.217Z",
+    "manager": null
+  },
+  {
+    "id": "mock-2ad4f451-c8fd-45c3-87d6-b4c0618019a0",
+    "name": "Alfreda Gutkowski",
+    "email": "Alfreda.Gutkowski21@yahoo.com",
+    "username": "Alfreda_Gutkowski",
+    "department": "Support",
+    "title": "Customer Configuration Agent",
+    "state": "active",
+    "presence": "MEETING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "450.285.5885 x38286",
+    "createdDate": "2025-05-27T19:06:54.204Z",
+    "lastModifiedDate": "2025-05-30T16:45:33.808Z",
+    "manager": {
+      "id": "mock-5acfde79-eef5-4622-a7af-83ac6a930277",
+      "name": "Destiny Cummerata"
+    }
+  },
+  {
+    "id": "mock-646b19a1-eae7-426a-8a32-749321924568",
+    "name": "Emma Schuster-Abbott",
+    "email": "Emma_Schuster-Abbott93@gmail.com",
+    "username": "Emma.Schuster-Abbott",
+    "department": "Support",
+    "title": "Future Accounts Associate",
+    "state": "deactivated",
+    "presence": "AWAY",
+    "routingStatus": "IDLE",
+    "phoneNumber": "647-533-4651 x243",
+    "createdDate": "2023-11-07T20:37:32.128Z",
+    "lastModifiedDate": "2025-05-24T11:55:37.009Z",
+    "manager": null
+  },
+  {
+    "id": "mock-f3682138-70f1-4f19-b3c7-d2b0fc53747c",
+    "name": "Cecilia Schinner",
+    "email": "Cecilia.Schinner64@yahoo.com",
+    "username": "Cecilia.Schinner",
+    "department": "Engineering",
+    "title": "Principal Response Strategist",
+    "state": "inactive",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "498-409-0251",
+    "createdDate": "2023-07-21T12:10:56.453Z",
+    "lastModifiedDate": "2025-05-22T20:54:29.783Z",
+    "manager": {
+      "id": "mock-9e18c773-1a7a-49d7-8f70-c6845837bfa1",
+      "name": "Abigail Kshlerin"
+    }
+  },
+  {
+    "id": "mock-7846ea97-b83f-48bf-bdd6-2a616e4bd555",
+    "name": "Eula Mante",
+    "email": "Eula_Mante@hotmail.com",
+    "username": "Eula.Mante",
+    "department": "Engineering",
+    "title": "Product Usability Officer",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "(258) 767-3073 x258",
+    "createdDate": "2024-04-17T17:14:34.355Z",
+    "lastModifiedDate": "2025-05-26T16:13:06.600Z",
+    "manager": {
+      "id": "mock-9bd431de-d3c7-4f6a-818e-c7607b6a5d60",
+      "name": "Harley Walter"
+    }
+  },
+  {
+    "id": "mock-597079d8-f954-4fe7-bb33-fb5a4d1b4d02",
+    "name": "Loraine Altenwerth",
+    "email": "Loraine.Altenwerth@yahoo.com",
+    "username": "Loraine_Altenwerth64",
+    "department": "Sales",
+    "title": "Internal Markets Officer",
+    "state": "deactivated",
+    "presence": "AWAY",
+    "routingStatus": "IDLE",
+    "phoneNumber": "(207) 590-9375 x3824",
+    "createdDate": "2024-05-08T09:40:31.294Z",
+    "lastModifiedDate": "2025-05-12T06:37:57.851Z",
+    "manager": null
+  },
+  {
+    "id": "mock-bb8a1fd2-af0f-4eee-93a0-afd7bcaf69ad",
+    "name": "Clair Lindgren",
+    "email": "Clair_Lindgren91@yahoo.com",
+    "username": "Clair_Lindgren",
+    "department": "Engineering",
+    "title": "International Web Developer",
+    "state": "inactive",
+    "presence": "AVAILABLE",
+    "routingStatus": "IDLE",
+    "phoneNumber": "595-441-8277 x78683",
+    "createdDate": "2023-10-24T06:18:44.588Z",
+    "lastModifiedDate": "2025-05-14T18:15:02.886Z",
+    "manager": {
+      "id": "mock-695dc507-4812-478b-bb7c-cb46feb8c85f",
+      "name": "Marcel Bins"
+    }
+  },
+  {
+    "id": "mock-f49c0cd6-d3a8-4c2c-89b6-90141d63df15",
+    "name": "Dawn Rempel",
+    "email": "Dawn_Rempel32@hotmail.com",
+    "username": "Dawn_Rempel",
+    "department": "Sales",
+    "title": "Regional Quality Liaison",
+    "state": "inactive",
+    "presence": "AVAILABLE",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "1-265-894-8258",
+    "createdDate": "2024-08-22T02:44:14.602Z",
+    "lastModifiedDate": "2025-05-25T13:14:20.012Z",
+    "manager": null
+  },
+  {
+    "id": "mock-188d0bc3-0f83-4ffc-9300-8cb68182271d",
+    "name": "Raul Parker",
+    "email": "Raul.Parker38@hotmail.com",
+    "username": "Raul_Parker",
+    "department": "Finance",
+    "title": "Product Branding Designer",
+    "state": "inactive",
+    "presence": "MEETING",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "(817) 487-8670 x797",
+    "createdDate": "2024-10-09T19:33:31.217Z",
+    "lastModifiedDate": "2025-05-29T01:31:09.831Z",
+    "manager": {
+      "id": "mock-3e50ccbd-5091-4391-96d1-44962badf91f",
+      "name": "Maximilian Yundt"
+    }
+  },
+  {
+    "id": "mock-597869db-62bc-4f6f-9784-52ada6dd746c",
+    "name": "Kara Davis",
+    "email": "Kara.Davis@gmail.com",
+    "username": "Kara_Davis82",
+    "department": "Sales",
+    "title": "Senior Response Executive",
+    "state": "active",
+    "presence": "AWAY",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "320-240-9020",
+    "createdDate": "2024-08-07T04:34:42.706Z",
+    "lastModifiedDate": "2025-05-30T08:35:07.666Z",
+    "manager": {
+      "id": "mock-d3ca8ca5-396c-44ba-b838-259bd5904a8c",
+      "name": "Adam Powlowski"
+    }
+  },
+  {
+    "id": "mock-fdff6123-d545-40bf-93c2-ec27040223a1",
+    "name": "Larissa Herman",
+    "email": "Larissa_Herman@yahoo.com",
+    "username": "Larissa.Herman",
+    "department": "Engineering",
+    "title": "Senior Web Architect",
+    "state": "deactivated",
+    "presence": "MEETING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "1-926-938-8347",
+    "createdDate": "2023-08-10T05:18:08.930Z",
+    "lastModifiedDate": "2025-05-20T23:29:25.253Z",
+    "manager": null
+  },
+  {
+    "id": "mock-a06bd13b-8d2c-4eaf-841b-12fb8090628c",
+    "name": "Derick Reichert",
+    "email": "Derick.Reichert28@hotmail.com",
+    "username": "Derick.Reichert24",
+    "department": "Engineering",
+    "title": "National Configuration Representative",
+    "state": "active",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "IDLE",
+    "phoneNumber": "394-962-8065 x52541",
+    "createdDate": "2025-04-01T09:40:33.125Z",
+    "lastModifiedDate": "2025-05-07T06:07:29.034Z",
+    "manager": {
+      "id": "mock-1f8b59bd-f44b-4ce0-8885-c80b707ae76a",
+      "name": "Zane Boyer"
+    }
+  },
+  {
+    "id": "mock-6c78db90-1c41-48c8-afd7-f68597563e75",
+    "name": "Miguel Dicki",
+    "email": "Miguel_Dicki@gmail.com",
+    "username": "Miguel.Dicki67",
+    "department": "Marketing",
+    "title": "International Web Analyst",
+    "state": "inactive",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "IDLE",
+    "phoneNumber": "515-378-5329 x391",
+    "createdDate": "2025-05-13T02:15:23.327Z",
+    "lastModifiedDate": "2025-05-15T06:49:47.805Z",
+    "manager": {
+      "id": "mock-8137c1aa-3cd0-4b1b-beec-16ef7945ebdf",
+      "name": "Zane Langosh-Balistreri"
+    }
+  },
+  {
+    "id": "mock-ab7b4f07-6afc-483d-b301-b9d702826975",
+    "name": "Jerad Champlin",
+    "email": "Jerad.Champlin@yahoo.com",
+    "username": "Jerad_Champlin24",
+    "department": "Marketing",
+    "title": "Senior Communications Developer",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "1-614-549-5383 x699",
+    "createdDate": "2023-10-31T19:46:08.092Z",
+    "lastModifiedDate": "2025-06-02T00:47:17.275Z",
+    "manager": {
+      "id": "mock-64482e35-bfee-4326-be8b-f90fb927d8c6",
+      "name": "Jamar Mayert"
+    }
+  },
+  {
+    "id": "mock-2dc5d727-81be-4b10-a930-a8dae316a8e7",
+    "name": "Ted Zieme",
+    "email": "Ted_Zieme94@yahoo.com",
+    "username": "Ted_Zieme63",
+    "department": "Marketing",
+    "title": "Central Functionality Orchestrator",
+    "state": "active",
+    "presence": "AVAILABLE",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "(739) 479-8883",
+    "createdDate": "2024-04-27T15:36:49.932Z",
+    "lastModifiedDate": "2025-05-29T23:58:32.590Z",
+    "manager": {
+      "id": "mock-c1190470-c9bd-44e2-b16c-747cf33f0ca5",
+      "name": "Boris Kiehn"
+    }
+  },
+  {
+    "id": "mock-61c85aef-91af-46e4-8fe8-b535fb396dac",
+    "name": "Brennon Ryan",
+    "email": "Brennon.Ryan@gmail.com",
+    "username": "Brennon_Ryan58",
+    "department": "Engineering",
+    "title": "Legacy Assurance Designer",
+    "state": "active",
+    "presence": "MEETING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "1-638-285-5085 x2313",
+    "createdDate": "2024-11-24T16:20:50.626Z",
+    "lastModifiedDate": "2025-05-24T06:54:43.114Z",
+    "manager": {
+      "id": "mock-27880cfd-dbc7-4468-9721-dbc7bdf4d3e1",
+      "name": "Randal Effertz"
+    }
+  },
+  {
+    "id": "mock-1e9ef2e2-286b-4384-b8c7-caddce0eaca3",
+    "name": "Matt White",
+    "email": "Matt_White70@yahoo.com",
+    "username": "Matt_White",
+    "department": "Operations",
+    "title": "Customer Optimization Administrator",
+    "state": "inactive",
+    "presence": "TRAINING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "(779) 414-3161 x69216",
+    "createdDate": "2024-05-01T13:24:50.604Z",
+    "lastModifiedDate": "2025-05-19T12:37:44.615Z",
+    "manager": {
+      "id": "mock-950035b7-d1ae-46cf-bc0c-62f1ff2b8b8e",
+      "name": "Darrin Hayes"
+    }
+  },
+  {
+    "id": "mock-5ab39531-87a4-4438-ab5d-549c93a8f2cc",
+    "name": "Jadyn Klein",
+    "email": "Jadyn.Klein@gmail.com",
+    "username": "Jadyn_Klein",
+    "department": "Sales",
+    "title": "Legacy Marketing Director",
+    "state": "deactivated",
+    "presence": "MEAL",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "401-422-5090 x36442",
+    "createdDate": "2024-04-20T10:43:19.284Z",
+    "lastModifiedDate": "2025-05-13T00:35:59.145Z",
+    "manager": {
+      "id": "mock-f59018bf-0540-4239-946d-dd388d1b781f",
+      "name": "Alberto Feest-Smith"
+    }
+  },
+  {
+    "id": "mock-6a12d190-ac3d-483e-aa8c-d889db405c06",
+    "name": "Karson Witting",
+    "email": "Karson_Witting54@yahoo.com",
+    "username": "Karson.Witting",
+    "department": "Operations",
+    "title": "Principal Functionality Designer",
+    "state": "deactivated",
+    "presence": "MEAL",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "621.576.5844 x96518",
+    "createdDate": "2024-04-17T14:18:27.508Z",
+    "lastModifiedDate": "2025-05-31T21:55:59.438Z",
+    "manager": {
+      "id": "mock-10b2f8ff-5d58-4a05-9135-681ba315ad75",
+      "name": "Khalil Kihn"
+    }
+  },
+  {
+    "id": "mock-aae9751d-16c1-428f-8e21-6ca71dfcd45a",
+    "name": "Clemens Boyle",
+    "email": "Clemens_Boyle86@yahoo.com",
+    "username": "Clemens.Boyle",
+    "department": "Operations",
+    "title": "District Assurance Planner",
+    "state": "inactive",
+    "presence": "AWAY",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "241.439.8846 x15052",
+    "createdDate": "2023-09-16T14:33:29.489Z",
+    "lastModifiedDate": "2025-05-26T08:10:00.597Z",
+    "manager": {
+      "id": "mock-36c89ff1-567a-483f-bc00-84b03fd526d9",
+      "name": "Stephany Zulauf"
+    }
+  },
+  {
+    "id": "mock-7b9e8a69-cb19-4b52-b5b7-88403073be52",
+    "name": "Jerrell Breitenberg",
+    "email": "Jerrell_Breitenberg5@gmail.com",
+    "username": "Jerrell_Breitenberg",
+    "department": "Sales",
+    "title": "Principal Research Executive",
+    "state": "active",
+    "presence": "AWAY",
+    "routingStatus": "IDLE",
+    "phoneNumber": "352.412.3726 x185",
+    "createdDate": "2024-10-21T21:02:02.726Z",
+    "lastModifiedDate": "2025-05-27T13:47:07.469Z",
+    "manager": {
+      "id": "mock-1156e424-6c56-41aa-b7ff-e4b8ff470aaa",
+      "name": "Shane Heathcote"
+    }
+  },
+  {
+    "id": "mock-f986554c-cff2-4661-8260-f709ed5e1821",
+    "name": "Tamia Murphy-Pouros",
+    "email": "Tamia_Murphy-Pouros52@gmail.com",
+    "username": "Tamia.Murphy-Pouros92",
+    "department": "Marketing",
+    "title": "District Intranet Architect",
+    "state": "inactive",
+    "presence": "AWAY",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "(862) 996-7184 x443",
+    "createdDate": "2025-02-16T08:17:14.427Z",
+    "lastModifiedDate": "2025-05-20T23:54:00.466Z",
+    "manager": null
+  },
+  {
+    "id": "mock-ad55fdbd-86a9-435c-a3e1-68ffc96eadd3",
+    "name": "Jailyn Schaefer",
+    "email": "Jailyn.Schaefer@hotmail.com",
+    "username": "Jailyn.Schaefer",
+    "department": "Finance",
+    "title": "Direct Tactics Architect",
+    "state": "inactive",
+    "presence": "BUSY",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "409.869.0947",
+    "createdDate": "2024-08-28T17:49:11.203Z",
+    "lastModifiedDate": "2025-05-22T09:05:30.212Z",
+    "manager": {
+      "id": "mock-d18a9357-d614-49b9-8406-8df17cc14053",
+      "name": "Nikki Stark"
+    }
+  },
+  {
+    "id": "mock-e1310ac1-bd73-4696-90fe-d9463ccc1e05",
+    "name": "Alanis Medhurst",
+    "email": "Alanis_Medhurst15@hotmail.com",
+    "username": "Alanis.Medhurst82",
+    "department": "Finance",
+    "title": "District Data Agent",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "(783) 827-6984",
+    "createdDate": "2023-09-19T22:32:11.656Z",
+    "lastModifiedDate": "2025-05-09T16:15:54.906Z",
+    "manager": null
+  },
+  {
+    "id": "mock-5d658d76-f0e9-4bac-b772-bf016e2b3fd1",
+    "name": "Eliseo Ritchie",
+    "email": "Eliseo.Ritchie@yahoo.com",
+    "username": "Eliseo_Ritchie",
+    "department": "Sales",
+    "title": "International Markets Agent",
+    "state": "active",
+    "presence": "AVAILABLE",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "854.234.2339 x59854",
+    "createdDate": "2024-05-15T10:13:24.245Z",
+    "lastModifiedDate": "2025-05-08T20:26:32.925Z",
+    "manager": {
+      "id": "mock-8257f579-693e-4d95-9152-39d660c9ff97",
+      "name": "Telly Hayes"
+    }
+  },
+  {
+    "id": "mock-895acd86-3a17-4bab-a82e-83d32aedf52d",
+    "name": "Brisa Gutmann",
+    "email": "Brisa_Gutmann30@yahoo.com",
+    "username": "Brisa.Gutmann91",
+    "department": "Support",
+    "title": "Product Operations Producer",
+    "state": "inactive",
+    "presence": "MEETING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "402.282.1162 x065",
+    "createdDate": "2023-10-19T05:40:57.883Z",
+    "lastModifiedDate": "2025-06-03T07:07:01.904Z",
+    "manager": {
+      "id": "mock-e11a0075-7e75-4dfb-b3d0-b565c0fc10f3",
+      "name": "Kiera Conn"
+    }
+  },
+  {
+    "id": "mock-432ef0ad-f714-4746-9d17-0177eb3c5d77",
+    "name": "Garrison Lockman",
+    "email": "Garrison.Lockman61@gmail.com",
+    "username": "Garrison_Lockman18",
+    "department": "Operations",
+    "title": "Regional Group Orchestrator",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "(524) 215-4827 x94879",
+    "createdDate": "2023-12-10T12:05:24.234Z",
+    "lastModifiedDate": "2025-05-19T07:08:40.419Z",
+    "manager": {
+      "id": "mock-e31cb60a-3e6b-4375-9ab5-e1f288fef008",
+      "name": "Annamae Kunde"
+    }
+  },
+  {
+    "id": "mock-efd996e0-e71d-40c1-900e-c6f8c7cf2bce",
+    "name": "Velda Breitenberg-Kub",
+    "email": "Velda_Breitenberg-Kub61@yahoo.com",
+    "username": "Velda_Breitenberg-Kub61",
+    "department": "Marketing",
+    "title": "Internal Brand Liaison",
+    "state": "active",
+    "presence": "BUSY",
+    "routingStatus": "IDLE",
+    "phoneNumber": "225.317.1783 x73790",
+    "createdDate": "2023-09-18T18:15:19.575Z",
+    "lastModifiedDate": "2025-05-18T02:59:44.431Z",
+    "manager": null
+  },
+  {
+    "id": "mock-83e62fcb-559a-44b7-b1b1-ce53f56e1e5e",
+    "name": "Theodore Ward",
+    "email": "Theodore_Ward71@hotmail.com",
+    "username": "Theodore.Ward55",
+    "department": "HR",
+    "title": "Future Group Specialist",
+    "state": "active",
+    "presence": "AVAILABLE",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "558.267.2404",
+    "createdDate": "2024-07-29T08:55:26.790Z",
+    "lastModifiedDate": "2025-05-23T04:23:29.727Z",
+    "manager": {
+      "id": "mock-740d0d88-f924-4a3a-a695-5001d0b24d94",
+      "name": "Jacynthe Schinner"
+    }
+  },
+  {
+    "id": "mock-7df90b27-5bb8-433a-a000-a4ba832399b9",
+    "name": "Lia Jacobs",
+    "email": "Lia.Jacobs@gmail.com",
+    "username": "Lia.Jacobs96",
+    "department": "Sales",
+    "title": "Product Markets Coordinator",
+    "state": "inactive",
+    "presence": "BREAK",
+    "routingStatus": "IDLE",
+    "phoneNumber": "592.906.5093",
+    "createdDate": "2024-03-03T19:57:44.150Z",
+    "lastModifiedDate": "2025-05-06T23:31:10.815Z",
+    "manager": {
+      "id": "mock-66f1cd5e-3164-4d26-9ae5-09bd1cbac4a8",
+      "name": "Vinnie Sporer"
+    }
+  },
+  {
+    "id": "mock-76f25699-5cf4-4a8b-96d5-0706d168a6bd",
+    "name": "Emmanuelle Reinger",
+    "email": "Emmanuelle_Reinger@yahoo.com",
+    "username": "Emmanuelle.Reinger59",
+    "department": "Marketing",
+    "title": "Corporate Program Architect",
+    "state": "inactive",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "958-756-3527",
+    "createdDate": "2023-11-27T22:59:25.041Z",
+    "lastModifiedDate": "2025-05-30T10:45:00.069Z",
+    "manager": null
+  },
+  {
+    "id": "mock-687a0165-558d-4abe-9bac-2b7ccececb07",
+    "name": "Kaleigh Ferry",
+    "email": "Kaleigh_Ferry@hotmail.com",
+    "username": "Kaleigh_Ferry",
+    "department": "Support",
+    "title": "Forward Group Director",
+    "state": "active",
+    "presence": "MEAL",
+    "routingStatus": "IDLE",
+    "phoneNumber": "1-415-883-3920 x5773",
+    "createdDate": "2024-03-24T03:16:55.910Z",
+    "lastModifiedDate": "2025-05-26T05:00:40.906Z",
+    "manager": {
+      "id": "mock-64f5aa96-f3b4-41e0-bb60-f3f30f0e4d24",
+      "name": "Blanche Torp"
+    }
+  },
+  {
+    "id": "mock-468adc3a-fc88-4e50-b0c8-d1c1e7a69cca",
+    "name": "Ross Grimes",
+    "email": "Ross_Grimes@hotmail.com",
+    "username": "Ross_Grimes",
+    "department": "Operations",
+    "title": "Future Creative Planner",
+    "state": "deactivated",
+    "presence": "MEAL",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "256.831.6388 x776",
+    "createdDate": "2023-09-06T17:02:59.797Z",
+    "lastModifiedDate": "2025-06-01T10:12:57.439Z",
+    "manager": {
+      "id": "mock-bbdf5ce4-b3f3-40fa-af90-ba5738d4effa",
+      "name": "Rolando White"
+    }
+  },
+  {
+    "id": "mock-fd0b6d65-f84d-4f9c-bb71-0d7476bc7929",
+    "name": "Jammie Halvorson",
+    "email": "Jammie_Halvorson31@yahoo.com",
+    "username": "Jammie_Halvorson",
+    "department": "Engineering",
+    "title": "Legacy Program Liaison",
+    "state": "inactive",
+    "presence": "MEETING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "(888) 867-4366 x90799",
+    "createdDate": "2023-10-29T02:01:58.816Z",
+    "lastModifiedDate": "2025-05-31T13:06:09.866Z",
+    "manager": {
+      "id": "mock-59bdc10e-04c9-469e-a697-50fdf2dea92e",
+      "name": "Flavio Berge"
+    }
+  },
+  {
+    "id": "mock-8d230e3a-46d0-4c7f-b550-faa969f859c7",
+    "name": "Crawford Stamm",
+    "email": "Crawford.Stamm95@hotmail.com",
+    "username": "Crawford.Stamm",
+    "department": "HR",
+    "title": "District Accounts Architect",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "807-459-4113 x2389",
+    "createdDate": "2025-03-26T21:42:44.488Z",
+    "lastModifiedDate": "2025-05-18T01:07:54.893Z",
+    "manager": {
+      "id": "mock-f6fd8951-2336-40f6-8a93-ec37a0f923a2",
+      "name": "Kadin Wunsch"
+    }
+  },
+  {
+    "id": "mock-fcf44237-6d3e-4c99-a8e5-865fb7e24827",
+    "name": "Stephany Russel",
+    "email": "Stephany.Russel@yahoo.com",
+    "username": "Stephany.Russel45",
+    "department": "Operations",
+    "title": "National Applications Facilitator",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "587.293.6542",
+    "createdDate": "2025-05-11T13:38:00.731Z",
+    "lastModifiedDate": "2025-05-26T18:45:51.034Z",
+    "manager": null
+  },
+  {
+    "id": "mock-9e88add9-4e4e-455c-a059-4e693beef359",
+    "name": "Cydney Rempel",
+    "email": "Cydney.Rempel@hotmail.com",
+    "username": "Cydney.Rempel39",
+    "department": "Engineering",
+    "title": "Internal Data Liaison",
+    "state": "active",
+    "presence": "MEETING",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "(600) 538-8692 x9185",
+    "createdDate": "2024-09-13T19:26:41.555Z",
+    "lastModifiedDate": "2025-06-05T03:09:08.096Z",
+    "manager": {
+      "id": "mock-cff701e7-cf1d-499c-a856-80e28bb81c4a",
+      "name": "Marilie Stanton"
+    }
+  },
+  {
+    "id": "mock-3425559f-6e03-4a41-bbf3-5283b9c20e2d",
+    "name": "Amya Olson",
+    "email": "Amya_Olson82@hotmail.com",
+    "username": "Amya_Olson85",
+    "department": "Support",
+    "title": "Senior Metrics Supervisor",
+    "state": "inactive",
+    "presence": "AWAY",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "963-589-1623 x8475",
+    "createdDate": "2024-08-06T14:01:10.403Z",
+    "lastModifiedDate": "2025-05-18T01:44:34.403Z",
+    "manager": null
+  },
+  {
+    "id": "mock-5712a960-b5d6-4747-8579-dd690b417b22",
+    "name": "Amber Bartell",
+    "email": "Amber.Bartell@hotmail.com",
+    "username": "Amber_Bartell",
+    "department": "Marketing",
+    "title": "Global Optimization Director",
+    "state": "inactive",
+    "presence": "BREAK",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "1-682-855-3595 x9137",
+    "createdDate": "2023-06-11T21:45:40.941Z",
+    "lastModifiedDate": "2025-05-27T15:02:23.416Z",
+    "manager": {
+      "id": "mock-08c27061-be46-4a8e-b3db-5142d54c464c",
+      "name": "Shanie Thompson"
+    }
+  },
+  {
+    "id": "mock-6c24c34f-0a27-4b85-b228-3938855b6449",
+    "name": "Garth Bernhard",
+    "email": "Garth.Bernhard@hotmail.com",
+    "username": "Garth_Bernhard",
+    "department": "Engineering",
+    "title": "Chief Security Technician",
+    "state": "active",
+    "presence": "AWAY",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "770-537-6952 x44856",
+    "createdDate": "2024-07-21T08:16:03.657Z",
+    "lastModifiedDate": "2025-06-04T14:07:22.185Z",
+    "manager": {
+      "id": "mock-5316320e-4c72-4b12-9332-7305875652fa",
+      "name": "Maxine Hintz"
+    }
+  },
+  {
+    "id": "mock-c097a983-41d7-4d06-b4bc-628e3fb76a2d",
+    "name": "Ella Will",
+    "email": "Ella_Will@hotmail.com",
+    "username": "Ella_Will10",
+    "department": "Engineering",
+    "title": "Dynamic Brand Officer",
+    "state": "deactivated",
+    "presence": "BREAK",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "833-450-2911",
+    "createdDate": "2023-12-09T14:16:33.711Z",
+    "lastModifiedDate": "2025-05-08T11:36:38.742Z",
+    "manager": null
+  },
+  {
+    "id": "mock-356a708b-d79b-4be4-9b66-cf721318635e",
+    "name": "Lorine Dickinson",
+    "email": "Lorine_Dickinson@hotmail.com",
+    "username": "Lorine.Dickinson9",
+    "department": "Support",
+    "title": "Investor Configuration Analyst",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "(250) 650-9692 x801",
+    "createdDate": "2025-04-15T01:34:56.651Z",
+    "lastModifiedDate": "2025-05-07T16:38:25.935Z",
+    "manager": {
+      "id": "mock-25c81e08-6c74-4ddf-92b6-f14562ca5bb8",
+      "name": "Keegan Kulas"
+    }
+  },
+  {
+    "id": "mock-03d562d0-f4ad-4a9a-88fb-ce4b3532b2d5",
+    "name": "Minnie Kovacek",
+    "email": "Minnie_Kovacek43@gmail.com",
+    "username": "Minnie.Kovacek42",
+    "department": "Sales",
+    "title": "Product Directives Executive",
+    "state": "inactive",
+    "presence": "BUSY",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "(552) 238-4726 x32776",
+    "createdDate": "2023-11-30T11:24:06.160Z",
+    "lastModifiedDate": "2025-05-19T07:39:06.224Z",
+    "manager": {
+      "id": "mock-aa9e00a0-c6bc-4d46-ac17-b52250d90c7b",
+      "name": "Ralph Jaskolski"
+    }
+  },
+  {
+    "id": "mock-15e86f56-f88a-48fc-85c2-16d8c2a7dc73",
+    "name": "Estevan Veum",
+    "email": "Estevan.Veum52@hotmail.com",
+    "username": "Estevan_Veum",
+    "department": "HR",
+    "title": "Customer Assurance Manager",
+    "state": "inactive",
+    "presence": "TRAINING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "450-640-1930",
+    "createdDate": "2023-06-21T10:58:53.827Z",
+    "lastModifiedDate": "2025-05-20T20:10:13.968Z",
+    "manager": {
+      "id": "mock-8cfe7cd0-7b32-4383-99d2-a6b4f7a03236",
+      "name": "Eleazar Little"
+    }
+  },
+  {
+    "id": "mock-e4e97a37-7c09-4ce9-9f82-e66f3ef91842",
+    "name": "Hector McCullough",
+    "email": "Hector_McCullough@gmail.com",
+    "username": "Hector_McCullough45",
+    "department": "Marketing",
+    "title": "Global Program Director",
+    "state": "inactive",
+    "presence": "AWAY",
+    "routingStatus": "IDLE",
+    "phoneNumber": "1-849-847-6319 x8503",
+    "createdDate": "2023-07-20T08:13:45.351Z",
+    "lastModifiedDate": "2025-05-22T08:29:49.345Z",
+    "manager": {
+      "id": "mock-f8f755fa-9195-4da8-8852-6b6002e7cfb6",
+      "name": "Zachariah Wunsch"
+    }
+  },
+  {
+    "id": "mock-fe84e999-61f1-40a1-861a-026717537f56",
+    "name": "Cordelia Luettgen",
+    "email": "Cordelia_Luettgen1@gmail.com",
+    "username": "Cordelia.Luettgen44",
+    "department": "Operations",
+    "title": "Global Functionality Manager",
+    "state": "inactive",
+    "presence": "AWAY",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "638-783-3644 x98257",
+    "createdDate": "2024-11-02T04:35:41.384Z",
+    "lastModifiedDate": "2025-05-26T12:44:26.540Z",
+    "manager": null
+  },
+  {
+    "id": "mock-09dc2430-96b6-4083-b58a-ee3af223590c",
+    "name": "Horace Daugherty",
+    "email": "Horace.Daugherty10@yahoo.com",
+    "username": "Horace_Daugherty",
+    "department": "Finance",
+    "title": "Internal Program Planner",
+    "state": "active",
+    "presence": "MEETING",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "660.613.5116",
+    "createdDate": "2024-11-18T06:24:07.042Z",
+    "lastModifiedDate": "2025-05-11T20:14:20.473Z",
+    "manager": {
+      "id": "mock-ee007753-511d-4281-84da-982cb1b1fcc1",
+      "name": "Reed O'Hara"
+    }
+  },
+  {
+    "id": "mock-47b6963d-42d5-4b96-90a9-bfe77bff6cc5",
+    "name": "Assunta Rath",
+    "email": "Assunta_Rath@yahoo.com",
+    "username": "Assunta.Rath",
+    "department": "Operations",
+    "title": "Corporate Factors Technician",
+    "state": "active",
+    "presence": "TRAINING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "1-909-724-1756 x99636",
+    "createdDate": "2024-11-08T16:18:15.245Z",
+    "lastModifiedDate": "2025-06-04T12:20:25.052Z",
+    "manager": {
+      "id": "mock-3a2fc602-6320-4747-9f46-3d0f4601ca73",
+      "name": "Carmela Ferry"
+    }
+  },
+  {
+    "id": "mock-9a992c08-3e57-4e40-bbd4-1786e0f0b069",
+    "name": "Markus Stark",
+    "email": "Markus.Stark@hotmail.com",
+    "username": "Markus.Stark36",
+    "department": "HR",
+    "title": "Senior Applications Supervisor",
+    "state": "active",
+    "presence": "BUSY",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "1-450-587-6519 x132",
+    "createdDate": "2023-08-28T00:45:45.660Z",
+    "lastModifiedDate": "2025-05-07T22:29:59.780Z",
+    "manager": {
+      "id": "mock-42e77662-8286-468a-93fb-a85af2f1466b",
+      "name": "Ariane Legros"
+    }
+  },
+  {
+    "id": "mock-e9fd3696-fd7b-408a-9e65-08faf6e88cce",
+    "name": "Melissa Satterfield",
+    "email": "Melissa.Satterfield@hotmail.com",
+    "username": "Melissa.Satterfield",
+    "department": "Engineering",
+    "title": "District Branding Strategist",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "330-727-7820 x859",
+    "createdDate": "2023-11-28T08:34:02.515Z",
+    "lastModifiedDate": "2025-05-26T07:06:25.457Z",
+    "manager": null
+  },
+  {
+    "id": "mock-2c72c696-ebe8-428d-8a06-0396ccfbdcf5",
+    "name": "Beth Wilkinson",
+    "email": "Beth.Wilkinson82@gmail.com",
+    "username": "Beth_Wilkinson33",
+    "department": "HR",
+    "title": "Investor Data Associate",
+    "state": "inactive",
+    "presence": "AVAILABLE",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "1-362-449-4976 x5716",
+    "createdDate": "2024-08-13T22:52:17.858Z",
+    "lastModifiedDate": "2025-05-27T08:18:54.713Z",
+    "manager": {
+      "id": "mock-c5286f03-6534-4e8c-97f7-efd20803d1a2",
+      "name": "Kole Denesik"
+    }
+  },
+  {
+    "id": "mock-07ecc209-861f-497c-ab49-e20c4856331d",
+    "name": "Laverna Moore",
+    "email": "Laverna_Moore@yahoo.com",
+    "username": "Laverna.Moore58",
+    "department": "Marketing",
+    "title": "Central Operations Associate",
+    "state": "inactive",
+    "presence": "BREAK",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "884.265.7949 x79026",
+    "createdDate": "2024-02-14T06:01:54.480Z",
+    "lastModifiedDate": "2025-05-06T23:34:23.698Z",
+    "manager": {
+      "id": "mock-0a7b0cb1-61e5-4b40-aaa8-ce809adb60a3",
+      "name": "Bert Krajcik"
+    }
+  },
+  {
+    "id": "mock-591a1d93-e931-43bf-bdd2-a983df8ecf70",
+    "name": "Dayne Terry",
+    "email": "Dayne_Terry78@hotmail.com",
+    "username": "Dayne_Terry",
+    "department": "Finance",
+    "title": "Central Marketing Liaison",
+    "state": "active",
+    "presence": "MEAL",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "745.485.9276",
+    "createdDate": "2023-08-06T01:49:12.324Z",
+    "lastModifiedDate": "2025-05-15T22:24:02.871Z",
+    "manager": null
+  },
+  {
+    "id": "mock-fcdc43f5-ecdf-4817-bcbd-0c0d4019d47f",
+    "name": "Bud Mosciski",
+    "email": "Bud.Mosciski41@hotmail.com",
+    "username": "Bud.Mosciski",
+    "department": "Marketing",
+    "title": "National Integration Coordinator",
+    "state": "inactive",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "(732) 506-5961",
+    "createdDate": "2025-04-29T16:58:25.273Z",
+    "lastModifiedDate": "2025-05-07T23:05:15.206Z",
+    "manager": {
+      "id": "mock-c7cbd695-c58c-46c7-b066-bf241e139bc4",
+      "name": "Felton O'Reilly"
+    }
+  },
+  {
+    "id": "mock-33cea61e-5d50-422e-b88a-7683ce9b6676",
+    "name": "Travis Auer",
+    "email": "Travis.Auer12@yahoo.com",
+    "username": "Travis.Auer",
+    "department": "HR",
+    "title": "Central Communications Officer",
+    "state": "inactive",
+    "presence": "MEETING",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "(736) 203-4261 x715",
+    "createdDate": "2024-09-10T02:50:19.284Z",
+    "lastModifiedDate": "2025-05-27T15:47:52.114Z",
+    "manager": null
+  },
+  {
+    "id": "mock-719865d9-5459-43c4-ac7c-ecc973328816",
+    "name": "Amari Prohaska",
+    "email": "Amari_Prohaska@yahoo.com",
+    "username": "Amari.Prohaska80",
+    "department": "Operations",
+    "title": "Corporate Division Engineer",
+    "state": "active",
+    "presence": "MEAL",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "922-723-4412 x883",
+    "createdDate": "2024-07-01T05:23:11.719Z",
+    "lastModifiedDate": "2025-05-19T22:53:13.780Z",
+    "manager": {
+      "id": "mock-5a4eb020-c39e-4ae4-a7fc-c6d06a772e20",
+      "name": "Kailyn Ryan"
+    }
+  },
+  {
+    "id": "mock-c116da5d-c213-4261-b058-0e7fb379aba9",
+    "name": "Jamarcus Cruickshank",
+    "email": "Jamarcus.Cruickshank@yahoo.com",
+    "username": "Jamarcus_Cruickshank94",
+    "department": "Sales",
+    "title": "Customer Web Producer",
+    "state": "inactive",
+    "presence": "TRAINING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "371-261-4579 x2516",
+    "createdDate": "2025-04-27T22:50:54.435Z",
+    "lastModifiedDate": "2025-05-08T13:37:15.797Z",
+    "manager": null
+  },
+  {
+    "id": "mock-fad7438a-dac1-4d49-bd7c-f619ee6bed1a",
+    "name": "Thaddeus Rolfson",
+    "email": "Thaddeus.Rolfson23@hotmail.com",
+    "username": "Thaddeus.Rolfson",
+    "department": "Finance",
+    "title": "National Accounts Consultant",
+    "state": "inactive",
+    "presence": "AWAY",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "1-344-828-7355",
+    "createdDate": "2023-07-01T17:24:51.277Z",
+    "lastModifiedDate": "2025-05-17T03:47:34.625Z",
+    "manager": null
+  },
+  {
+    "id": "mock-0b62c5b4-18fd-4c89-80f6-9681d8a316dc",
+    "name": "Joe Terry",
+    "email": "Joe.Terry@hotmail.com",
+    "username": "Joe.Terry51",
+    "department": "Operations",
+    "title": "Senior Identity Supervisor",
+    "state": "deactivated",
+    "presence": "MEAL",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "560.289.9551 x0979",
+    "createdDate": "2025-03-27T05:41:39.974Z",
+    "lastModifiedDate": "2025-05-23T03:53:23.519Z",
+    "manager": {
+      "id": "mock-d89c6f84-2acc-4897-b432-63cec61c24d1",
+      "name": "Royal Barrows"
+    }
+  },
+  {
+    "id": "mock-9892dab1-010f-49d3-be3e-28a8a5397aab",
+    "name": "Bernhard Jerde",
+    "email": "Bernhard_Jerde@gmail.com",
+    "username": "Bernhard.Jerde25",
+    "department": "Finance",
+    "title": "Chief Intranet Orchestrator",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "957-941-9671",
+    "createdDate": "2023-06-28T07:15:40.296Z",
+    "lastModifiedDate": "2025-06-03T15:47:04.105Z",
+    "manager": {
+      "id": "mock-b6097a42-4094-4b5c-ad54-b96c1905e321",
+      "name": "Serenity Mayer"
+    }
+  },
+  {
+    "id": "mock-4b761e74-1523-4f18-aca3-b8a1bd655ada",
+    "name": "Rodrick Lockman",
+    "email": "Rodrick_Lockman89@hotmail.com",
+    "username": "Rodrick.Lockman",
+    "department": "Sales",
+    "title": "Central Security Specialist",
+    "state": "deactivated",
+    "presence": "AWAY",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "797-671-1763",
+    "createdDate": "2024-12-11T17:29:37.098Z",
+    "lastModifiedDate": "2025-05-20T09:47:03.605Z",
+    "manager": {
+      "id": "mock-4ab78070-b2c1-4c2a-9e64-e54003ee81e7",
+      "name": "Annabell Yundt"
+    }
+  },
+  {
+    "id": "mock-27f24d57-e0f4-448d-926d-fb2fae10d4d0",
+    "name": "Matteo Kuhic",
+    "email": "Matteo_Kuhic@gmail.com",
+    "username": "Matteo_Kuhic",
+    "department": "Support",
+    "title": "Lead Markets Administrator",
+    "state": "inactive",
+    "presence": "TRAINING",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "(968) 549-0072 x74287",
+    "createdDate": "2024-06-28T19:45:59.200Z",
+    "lastModifiedDate": "2025-05-27T11:27:03.474Z",
+    "manager": {
+      "id": "mock-e187c460-3165-43e0-8bd7-34ffc07a3d6d",
+      "name": "Nyah Ratke"
+    }
+  },
+  {
+    "id": "mock-b31b1085-6abb-4f21-9c51-71d406a6610a",
+    "name": "Silas Bode",
+    "email": "Silas.Bode@gmail.com",
+    "username": "Silas_Bode",
+    "department": "Marketing",
+    "title": "Direct Communications Designer",
+    "state": "active",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "IDLE",
+    "phoneNumber": "(852) 880-6616 x47491",
+    "createdDate": "2023-08-06T19:41:17.693Z",
+    "lastModifiedDate": "2025-06-04T20:22:28.680Z",
+    "manager": null
+  },
+  {
+    "id": "mock-c1c4b320-3c4f-4726-94b0-61176cfda0e2",
+    "name": "Keely MacGyver",
+    "email": "Keely_MacGyver25@yahoo.com",
+    "username": "Keely_MacGyver59",
+    "department": "Engineering",
+    "title": "Legacy Infrastructure Officer",
+    "state": "active",
+    "presence": "TRAINING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "673.830.6514",
+    "createdDate": "2024-09-14T07:49:11.536Z",
+    "lastModifiedDate": "2025-05-13T03:42:43.902Z",
+    "manager": null
+  },
+  {
+    "id": "mock-a10160bd-565f-4b98-be2c-23c8df4f7408",
+    "name": "Gregg Bernhard",
+    "email": "Gregg_Bernhard2@yahoo.com",
+    "username": "Gregg_Bernhard",
+    "department": "HR",
+    "title": "Regional Communications Specialist",
+    "state": "inactive",
+    "presence": "MEETING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "1-733-580-5778 x92244",
+    "createdDate": "2024-11-26T06:09:00.951Z",
+    "lastModifiedDate": "2025-05-31T11:57:42.723Z",
+    "manager": {
+      "id": "mock-cd3058ff-bb2e-4e33-84f6-1f43ccddc463",
+      "name": "Maude Johnston"
+    }
+  },
+  {
+    "id": "mock-4912436e-6355-463b-97da-848cb1b82472",
+    "name": "Helene Waelchi",
+    "email": "Helene.Waelchi10@hotmail.com",
+    "username": "Helene.Waelchi1",
+    "department": "HR",
+    "title": "Senior Integration Strategist",
+    "state": "active",
+    "presence": "TRAINING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "549.832.9832 x32142",
+    "createdDate": "2024-07-07T14:39:06.406Z",
+    "lastModifiedDate": "2025-05-09T19:42:01.834Z",
+    "manager": {
+      "id": "mock-e04a69bb-92c2-4912-aaba-130692721510",
+      "name": "Melvina Greenfelder"
+    }
+  },
+  {
+    "id": "mock-c0733318-83b0-49c3-ac2b-70a301079137",
+    "name": "Magdalen Grimes",
+    "email": "Magdalen_Grimes@yahoo.com",
+    "username": "Magdalen_Grimes",
+    "department": "Finance",
+    "title": "Direct Quality Executive",
+    "state": "inactive",
+    "presence": "BUSY",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "881-286-4697",
+    "createdDate": "2025-01-06T23:09:51.532Z",
+    "lastModifiedDate": "2025-05-29T03:36:28.665Z",
+    "manager": null
+  },
+  {
+    "id": "mock-edb0e754-5ee0-4909-8f52-18301512b1e5",
+    "name": "Lemuel Wiza",
+    "email": "Lemuel_Wiza@yahoo.com",
+    "username": "Lemuel.Wiza95",
+    "department": "Finance",
+    "title": "Investor Accountability Orchestrator",
+    "state": "inactive",
+    "presence": "MEETING",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "413.521.0628 x27622",
+    "createdDate": "2024-01-14T11:25:06.794Z",
+    "lastModifiedDate": "2025-05-30T19:07:37.431Z",
+    "manager": {
+      "id": "mock-98507536-a762-4bf2-bfaf-14166c543a3a",
+      "name": "Mitchell Rohan-Dickens"
+    }
+  },
+  {
+    "id": "mock-97241586-f2a1-4ff4-bace-eeb1b7932054",
+    "name": "Gunner McClure-Wyman",
+    "email": "Gunner_McClure-Wyman@yahoo.com",
+    "username": "Gunner.McClure-Wyman91",
+    "department": "Sales",
+    "title": "Global Brand Director",
+    "state": "inactive",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "IDLE",
+    "phoneNumber": "735-888-0171 x842",
+    "createdDate": "2025-05-14T06:34:38.622Z",
+    "lastModifiedDate": "2025-05-11T20:45:34.285Z",
+    "manager": {
+      "id": "mock-04bdf5c4-4e6c-46cf-8394-3a40243683bb",
+      "name": "Raegan Hirthe"
+    }
+  },
+  {
+    "id": "mock-4cb54c3c-3386-4066-8182-8c2cca8feb5d",
+    "name": "Marques Conroy",
+    "email": "Marques.Conroy@gmail.com",
+    "username": "Marques_Conroy63",
+    "department": "HR",
+    "title": "Legacy Creative Producer",
+    "state": "inactive",
+    "presence": "BREAK",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "1-463-587-6776 x2254",
+    "createdDate": "2023-08-20T08:20:54.010Z",
+    "lastModifiedDate": "2025-05-16T12:38:33.484Z",
+    "manager": {
+      "id": "mock-cf15abd5-ee11-4074-a979-b5bb5078e305",
+      "name": "Ethel Price"
+    }
+  },
+  {
+    "id": "mock-756f1bec-1660-4ac4-9c1f-9e9ad654cc4e",
+    "name": "Foster Franecki",
+    "email": "Foster_Franecki@hotmail.com",
+    "username": "Foster.Franecki",
+    "department": "Marketing",
+    "title": "Product Accounts Specialist",
+    "state": "inactive",
+    "presence": "TRAINING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "(722) 980-5385 x3412",
+    "createdDate": "2024-06-19T16:48:22.366Z",
+    "lastModifiedDate": "2025-05-30T17:25:20.938Z",
+    "manager": {
+      "id": "mock-8fd18fb7-16ff-47fe-aa27-2f10f1bf690b",
+      "name": "Althea Frami"
+    }
+  },
+  {
+    "id": "mock-cd5d1b63-917c-4580-b91a-3eec77fedf66",
+    "name": "Richmond Price",
+    "email": "Richmond_Price@gmail.com",
+    "username": "Richmond_Price",
+    "department": "Engineering",
+    "title": "Customer Creative Associate",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "377-297-9821 x44694",
+    "createdDate": "2023-07-08T21:00:05.165Z",
+    "lastModifiedDate": "2025-06-02T01:11:13.138Z",
+    "manager": null
+  },
+  {
+    "id": "mock-491a738a-5916-4206-bd03-037b2a43ccd9",
+    "name": "Clemens Howe",
+    "email": "Clemens_Howe56@hotmail.com",
+    "username": "Clemens.Howe74",
+    "department": "Marketing",
+    "title": "International Operations Representative",
+    "state": "deactivated",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "1-850-255-9768 x507",
+    "createdDate": "2023-09-25T12:01:59.472Z",
+    "lastModifiedDate": "2025-06-01T22:31:06.102Z",
+    "manager": null
+  },
+  {
+    "id": "mock-3790bf41-7346-415a-b018-f3c410a2751f",
+    "name": "Elvis Roberts",
+    "email": "Elvis.Roberts96@yahoo.com",
+    "username": "Elvis.Roberts",
+    "department": "Sales",
+    "title": "Central Accounts Strategist",
+    "state": "deactivated",
+    "presence": "BREAK",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "1-838-641-6289",
+    "createdDate": "2025-05-29T14:36:50.372Z",
+    "lastModifiedDate": "2025-05-16T13:24:57.600Z",
+    "manager": {
+      "id": "mock-e892ab3f-9a97-464d-9321-6f322342de3f",
+      "name": "Barney Adams"
+    }
+  },
+  {
+    "id": "mock-0cedd9ec-dfeb-49ea-be76-1cca780d15f5",
+    "name": "Ignacio Jacobs",
+    "email": "Ignacio_Jacobs64@yahoo.com",
+    "username": "Ignacio_Jacobs62",
+    "department": "Support",
+    "title": "Customer Marketing Assistant",
+    "state": "inactive",
+    "presence": "MEETING",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "510-897-2401 x28842",
+    "createdDate": "2025-02-09T07:52:51.246Z",
+    "lastModifiedDate": "2025-06-02T00:46:57.636Z",
+    "manager": {
+      "id": "mock-dbd1eddd-faea-41d7-b4ef-2e0e1e7f9586",
+      "name": "Bernardo Bruen"
+    }
+  },
+  {
+    "id": "mock-ad5fad34-7a80-4445-9ff8-17d408fd51ed",
+    "name": "Micah Langosh",
+    "email": "Micah_Langosh@yahoo.com",
+    "username": "Micah.Langosh32",
+    "department": "Marketing",
+    "title": "Corporate Quality Liaison",
+    "state": "inactive",
+    "presence": "AVAILABLE",
+    "routingStatus": "IDLE",
+    "phoneNumber": "1-562-410-2198 x722",
+    "createdDate": "2025-03-17T00:10:11.957Z",
+    "lastModifiedDate": "2025-06-04T17:25:50.673Z",
+    "manager": {
+      "id": "mock-2c9ae013-88f6-44d9-a6c8-a1fe256ae11d",
+      "name": "Erich Feil"
+    }
+  },
+  {
+    "id": "mock-1be4ee54-0bdc-4694-b8c9-1f1b3c1b1c3a",
+    "name": "Haven Abshire",
+    "email": "Haven_Abshire@yahoo.com",
+    "username": "Haven_Abshire",
+    "department": "Operations",
+    "title": "Future Solutions Associate",
+    "state": "inactive",
+    "presence": "MEAL",
+    "routingStatus": "IDLE",
+    "phoneNumber": "1-586-916-0553 x88354",
+    "createdDate": "2024-02-07T09:50:30.573Z",
+    "lastModifiedDate": "2025-05-19T17:59:22.767Z",
+    "manager": {
+      "id": "mock-b405456c-02db-48cf-a49c-065ec7ccdbd0",
+      "name": "Craig Bogisich"
+    }
+  },
+  {
+    "id": "mock-e32fd6a7-545a-4f66-931a-8ec2579a801d",
+    "name": "Gerard Torp",
+    "email": "Gerard.Torp@yahoo.com",
+    "username": "Gerard.Torp",
+    "department": "Support",
+    "title": "Investor Interactions Administrator",
+    "state": "active",
+    "presence": "MEAL",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "(399) 348-8729 x3488",
+    "createdDate": "2024-01-28T01:37:38.603Z",
+    "lastModifiedDate": "2025-05-17T11:56:14.935Z",
+    "manager": {
+      "id": "mock-62febc44-480f-4867-9f53-7828ebc8132e",
+      "name": "Odessa Wilderman"
+    }
+  },
+  {
+    "id": "mock-0663009e-4499-4674-bfb7-abf474df0359",
+    "name": "Candelario Wiza",
+    "email": "Candelario_Wiza@gmail.com",
+    "username": "Candelario.Wiza67",
+    "department": "Engineering",
+    "title": "Global Research Representative",
+    "state": "deactivated",
+    "presence": "BUSY",
+    "routingStatus": "NOT_RESPONDING",
+    "phoneNumber": "(954) 602-5617 x6611",
+    "createdDate": "2024-07-07T09:25:44.288Z",
+    "lastModifiedDate": "2025-05-08T02:48:50.812Z",
+    "manager": {
+      "id": "mock-18539f54-ffa9-4278-a2cb-01799cc75cf1",
+      "name": "Jessika Jakubowski"
+    }
+  },
+  {
+    "id": "mock-7573200b-b451-4cc1-8907-3ab3cbcb3a22",
+    "name": "Zora Frami",
+    "email": "Zora.Frami98@hotmail.com",
+    "username": "Zora.Frami23",
+    "department": "Finance",
+    "title": "Legacy Interactions Strategist",
+    "state": "inactive",
+    "presence": "MEETING",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "973.353.1004 x6310",
+    "createdDate": "2025-05-04T23:57:19.523Z",
+    "lastModifiedDate": "2025-06-05T14:57:58.529Z",
+    "manager": {
+      "id": "mock-d4f5e46b-4961-4cb2-8a80-d0e40dfce5fb",
+      "name": "General Tremblay"
+    }
+  },
+  {
+    "id": "mock-24717564-6f4d-4d4b-bb0e-ebe3903d6454",
+    "name": "Eldora Halvorson",
+    "email": "Eldora.Halvorson@hotmail.com",
+    "username": "Eldora_Halvorson",
+    "department": "Engineering",
+    "title": "Internal Implementation Director",
+    "state": "deactivated",
+    "presence": "AVAILABLE",
+    "routingStatus": "IDLE",
+    "phoneNumber": "620.346.5591 x901",
+    "createdDate": "2023-10-10T12:45:37.677Z",
+    "lastModifiedDate": "2025-05-13T23:25:11.522Z",
+    "manager": {
+      "id": "mock-7f0815ea-1964-4c48-b60c-83aee09ec88f",
+      "name": "Damaris West"
+    }
+  },
+  {
+    "id": "mock-a78c8119-684d-4fec-ada9-58b751ad0c47",
+    "name": "Saul Powlowski",
+    "email": "Saul_Powlowski@gmail.com",
+    "username": "Saul_Powlowski",
+    "department": "Support",
+    "title": "Regional Marketing Architect",
+    "state": "deactivated",
+    "presence": "AVAILABLE",
+    "routingStatus": "IDLE",
+    "phoneNumber": "860-956-9490 x9587",
+    "createdDate": "2024-09-08T15:27:31.735Z",
+    "lastModifiedDate": "2025-05-31T13:25:58.719Z",
+    "manager": {
+      "id": "mock-ba08a1ff-cb4c-47f5-a461-473de27ad044",
+      "name": "Alda Cole"
+    }
+  },
+  {
+    "id": "mock-107ef818-b824-43a6-b381-99c678ce0f20",
+    "name": "Elenora Streich",
+    "email": "Elenora.Streich20@hotmail.com",
+    "username": "Elenora.Streich",
+    "department": "Support",
+    "title": "Principal Response Administrator",
+    "state": "active",
+    "presence": "MEAL",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "926.285.9078 x284",
+    "createdDate": "2024-10-06T03:11:18.895Z",
+    "lastModifiedDate": "2025-05-19T12:00:57.980Z",
+    "manager": {
+      "id": "mock-73047061-e593-4b7c-8a48-daf6a6ed808b",
+      "name": "Edgardo Moore-Pacocha"
+    }
+  },
+  {
+    "id": "mock-15ad02a6-b97f-435f-9f3e-2a30f6f5d22b",
+    "name": "Melissa Johnston",
+    "email": "Melissa_Johnston@yahoo.com",
+    "username": "Melissa.Johnston",
+    "department": "Engineering",
+    "title": "Future Integration Planner",
+    "state": "active",
+    "presence": "MEAL",
+    "routingStatus": "IDLE",
+    "phoneNumber": "316.480.6869 x369",
+    "createdDate": "2023-09-03T13:55:53.469Z",
+    "lastModifiedDate": "2025-06-03T04:14:33.007Z",
+    "manager": null
+  },
+  {
+    "id": "mock-d2324c19-97ce-43f1-b4d3-30653056331d",
+    "name": "Edwina Krajcik",
+    "email": "Edwina_Krajcik@yahoo.com",
+    "username": "Edwina.Krajcik57",
+    "department": "Finance",
+    "title": "Future Metrics Consultant",
+    "state": "deactivated",
+    "presence": "MEETING",
+    "routingStatus": "IDLE",
+    "phoneNumber": "(440) 348-3272 x6031",
+    "createdDate": "2024-11-08T04:10:03.597Z",
+    "lastModifiedDate": "2025-06-04T02:12:14.235Z",
+    "manager": {
+      "id": "mock-03cd87aa-784d-4dc0-81b8-4f9aa9eba8e6",
+      "name": "Kenya Yundt"
+    }
+  },
+  {
+    "id": "mock-7e620d2e-b617-445f-854e-b20d3118fb3b",
+    "name": "Gust Wunsch",
+    "email": "Gust_Wunsch@gmail.com",
+    "username": "Gust_Wunsch32",
+    "department": "Engineering",
+    "title": "Dynamic Implementation Architect",
+    "state": "inactive",
+    "presence": "BREAK",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "725.395.0011 x4734",
+    "createdDate": "2025-05-25T22:10:00.848Z",
+    "lastModifiedDate": "2025-06-04T10:08:51.017Z",
+    "manager": {
+      "id": "mock-125ae003-0388-41b6-9119-c2503749c65e",
+      "name": "Morton Simonis"
+    }
+  },
+  {
+    "id": "mock-8ef22622-56e9-4b96-b0ac-0221f857806e",
+    "name": "Fleta Schneider",
+    "email": "Fleta.Schneider@gmail.com",
+    "username": "Fleta.Schneider20",
+    "department": "Sales",
+    "title": "Customer Paradigm Manager",
+    "state": "active",
+    "presence": "MEAL",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "679.646.1542 x755",
+    "createdDate": "2024-04-30T00:09:48.091Z",
+    "lastModifiedDate": "2025-05-17T18:02:36.911Z",
+    "manager": {
+      "id": "mock-c5dd0aaa-7f03-4d0f-9ea9-336732277b2a",
+      "name": "Deangelo Kutch"
+    }
+  },
+  {
+    "id": "mock-875688ff-dafd-4858-9332-45d19dc3f743",
+    "name": "Deion Marvin",
+    "email": "Deion.Marvin@yahoo.com",
+    "username": "Deion.Marvin68",
+    "department": "Marketing",
+    "title": "Principal Functionality Executive",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "408-777-8791 x4431",
+    "createdDate": "2023-10-03T02:42:44.979Z",
+    "lastModifiedDate": "2025-06-04T15:01:08.484Z",
+    "manager": {
+      "id": "mock-c5f0eb04-c2c3-44c5-9362-af1cd55c280a",
+      "name": "Leslie Cormier"
+    }
+  },
+  {
+    "id": "mock-9837d83a-5f91-45a1-a866-b31dbb0111ae",
+    "name": "Mac Carter",
+    "email": "Mac_Carter40@gmail.com",
+    "username": "Mac.Carter",
+    "department": "Support",
+    "title": "Legacy Factors Engineer",
+    "state": "inactive",
+    "presence": "MEAL",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "375-365-0384 x5477",
+    "createdDate": "2024-06-23T02:00:13.293Z",
+    "lastModifiedDate": "2025-05-20T07:29:00.288Z",
+    "manager": {
+      "id": "mock-22a59f95-acb2-4428-a94a-a3356f7807e9",
+      "name": "Finn Hettinger"
+    }
+  },
+  {
+    "id": "mock-27af35a6-59a7-4a97-9aa1-76d6c46f28ce",
+    "name": "Sedrick Schaden",
+    "email": "Sedrick.Schaden@gmail.com",
+    "username": "Sedrick.Schaden9",
+    "department": "Marketing",
+    "title": "Lead Intranet Associate",
+    "state": "deactivated",
+    "presence": "TRAINING",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "574-864-1283 x43575",
+    "createdDate": "2025-01-14T09:52:35.171Z",
+    "lastModifiedDate": "2025-05-16T04:28:19.496Z",
+    "manager": null
+  },
+  {
+    "id": "mock-afb9588c-dd80-4e5a-86e6-7476f644ee5c",
+    "name": "Jasmin Stark",
+    "email": "Jasmin_Stark22@yahoo.com",
+    "username": "Jasmin_Stark69",
+    "department": "Marketing",
+    "title": "Human Factors Orchestrator",
+    "state": "inactive",
+    "presence": "OFF_QUEUE",
+    "routingStatus": "INTERACTING",
+    "phoneNumber": "636-989-7014 x84522",
+    "createdDate": "2024-12-14T05:37:08.089Z",
+    "lastModifiedDate": "2025-05-31T05:48:27.568Z",
+    "manager": {
+      "id": "mock-f90496e9-fe8c-41ec-bea2-9ce21dacbdb9",
+      "name": "Rachelle Christiansen"
+    }
+  },
+  {
+    "id": "mock-cf303b55-be9c-4d8c-bb68-9bf9acf32372",
+    "name": "Trycia Watsica",
+    "email": "Trycia.Watsica37@yahoo.com",
+    "username": "Trycia.Watsica",
+    "department": "Engineering",
+    "title": "Corporate Communications Agent",
+    "state": "active",
+    "presence": "BUSY",
+    "routingStatus": "OFF_QUEUE",
+    "phoneNumber": "1-679-482-1874 x206",
+    "createdDate": "2025-04-14T02:31:13.315Z",
+    "lastModifiedDate": "2025-05-12T23:31:19.262Z",
+    "manager": {
+      "id": "mock-6061d423-446a-469a-8e17-a172b4e4c7f6",
+      "name": "Dessie Koelpin"
+    }
+  },
+  {
+    "id": "mock-174e3d58-cd1e-45f6-b8e9-5d1ef41aa747",
+    "name": "Rosemarie Zieme",
+    "email": "Rosemarie.Zieme@yahoo.com",
+    "username": "Rosemarie.Zieme",
+    "department": "Support",
+    "title": "International Tactics Specialist",
+    "state": "active",
+    "presence": "AWAY",
+    "routingStatus": "IDLE",
+    "phoneNumber": "(899) 407-0170 x1577",
+    "createdDate": "2023-07-17T10:35:04.350Z",
+    "lastModifiedDate": "2025-05-20T21:45:45.528Z",
+    "manager": {
+      "id": "mock-247129be-2d2b-44f1-87ae-8e404eca6d2b",
+      "name": "Shana Medhurst"
+    }
+  }
+]

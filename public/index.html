@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genesys Cloud Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <div class="logo">
+        <i class="fas fa-headset"></i>
+        <h1>Genesys Cloud Dashboard</h1>
+      </div>
+      <div class="header-controls">
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Search...">
+          <button id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        <button id="refresh-button" class="icon-button" title="Refresh Data">
+          <i class="fas fa-sync-alt"></i>
+        </button>
+      </div>
+    </header>
+
+    <div class="content-container">
+      <nav class="sidebar">
+        <ul class="nav-menu">
+          <li class="nav-item active" data-page="dashboard">
+            <i class="fas fa-tachometer-alt"></i>
+            <span>Dashboard</span>
+          </li>
+          <li class="nav-item" data-page="users">
+            <i class="fas fa-users"></i>
+            <span>Users</span>
+          </li>
+          <li class="nav-item" data-page="queues">
+            <i class="fas fa-phone-volume"></i>
+            <span>Queues</span>
+          </li>
+          <li class="nav-item" data-page="departments">
+            <i class="fas fa-building"></i>
+            <span>Departments</span>
+          </li>
+          <li class="nav-item" data-page="settings">
+            <i class="fas fa-cog"></i>
+            <span>Settings</span>
+          </li>
+        </ul>
+        <div class="sidebar-footer">
+          <div class="data-status">
+            <span id="data-type-indicator"></span>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main-content">
+        <!-- Dashboard Page -->
+        <section id="dashboard-page" class="page active">
+          <h2>Dashboard</h2>
+          <div class="dashboard-stats">
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="stat-content">
+                <h3>Total Users</h3>
+                <p id="total-users-count">Loading...</p>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="fas fa-user-check"></i>
+              </div>
+              <div class="stat-content">
+                <h3>Active Users</h3>
+                <p id="active-users-count">Loading...</p>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="fas fa-phone-volume"></i>
+              </div>
+              <div class="stat-content">
+                <h3>Total Queues</h3>
+                <p id="total-queues-count">Loading...</p>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="fas fa-building"></i>
+              </div>
+              <div class="stat-content">
+                <h3>Departments</h3>
+                <p id="departments-count">Loading...</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="dashboard-charts">
+            <div class="chart-container">
+              <h3>Users by Department</h3>
+              <canvas id="department-chart"></canvas>
+            </div>
+            <div class="chart-container">
+              <h3>User Status Distribution</h3>
+              <canvas id="status-chart"></canvas>
+            </div>
+            <div class="chart-container">
+              <h3>Queue Types</h3>
+              <canvas id="queue-type-chart"></canvas>
+            </div>
+            <div class="chart-container">
+              <h3>User Presence</h3>
+              <canvas id="presence-chart"></canvas>
+            </div>
+          </div>
+
+          <div class="recent-users">
+            <h3>Recent Users</h3>
+            <div class="table-container">
+              <table id="recent-users-table">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Department</th>
+                    <th>Status</th>
+                    <th>Presence</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="5" class="loading-message">Loading recent users...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- Users Page -->
+        <section id="users-page" class="page">
+          <h2>Users</h2>
+          <div class="users-controls">
+            <div class="filter-container">
+              <select id="department-filter">
+                <option value="">All Departments</option>
+              </select>
+              <select id="status-filter">
+                <option value="">All Statuses</option>
+                <option value="active">Active</option>
+                <option value="inactive">Inactive</option>
+                <option value="deactivated">Deactivated</option>
+              </select>
+              <select id="presence-filter">
+                <option value="">All Presence</option>
+              </select>
+            </div>
+            <div class="pagination-container">
+              <button id="prev-page" class="pagination-button" disabled>
+                <i class="fas fa-chevron-left"></i> Previous
+              </button>
+              <span id="pagination-info">Page 1 of 1</span>
+              <button id="next-page" class="pagination-button" disabled>
+                Next <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="table-container">
+            <table id="users-table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Department</th>
+                  <th>Title</th>
+                  <th>Status</th>
+                  <th>Presence</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="7" class="loading-message">Loading users...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Queues Page -->
+        <section id="queues-page" class="page">
+          <h2>Queues</h2>
+          <div class="queues-controls">
+            <div class="filter-container">
+              <select id="queue-type-filter">
+                <option value="">All Types</option>
+                <option value="voice">Voice</option>
+                <option value="chat">Chat</option>
+                <option value="email">Email</option>
+                <option value="social">Social</option>
+                <option value="callback">Callback</option>
+              </select>
+            </div>
+            <div class="pagination-container">
+              <button id="queues-prev-page" class="pagination-button" disabled>
+                <i class="fas fa-chevron-left"></i> Previous
+              </button>
+              <span id="queues-pagination-info">Page 1 of 1</span>
+              <button id="queues-next-page" class="pagination-button" disabled>
+                Next <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="table-container">
+            <table id="queues-table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Description</th>
+                  <th>Type</th>
+                  <th>Members</th>
+                  <th>Last Modified</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="6" class="loading-message">Loading queues...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Departments Page -->
+        <section id="departments-page" class="page">
+          <h2>Departments</h2>
+          <div class="departments-grid">
+            <div class="loading-message">Loading departments...</div>
+          </div>
+        </section>
+
+        <!-- Settings Page -->
+        <section id="settings-page" class="page">
+          <h2>Settings</h2>
+          <div class="settings-container">
+            <div class="settings-card">
+              <h3>Data Source</h3>
+              <div class="setting-item">
+                <label for="data-source">Current Data Source:</label>
+                <span id="data-source-value">Loading...</span>
+              </div>
+              <div class="setting-item">
+                <label for="region">Region:</label>
+                <span id="region-value">Loading...</span>
+              </div>
+              <p class="setting-description">
+                This application can use either real data from the Genesys Cloud API or mock data for demonstration purposes.
+              </p>
+            </div>
+            
+            <div class="settings-card">
+              <h3>Cache Settings</h3>
+              <div class="setting-item">
+                <label>Cache Expiration:</label>
+                <span id="cache-expiration">Loading...</span>
+              </div>
+              <div class="setting-item">
+                <label>Last Data Refresh:</label>
+                <span id="last-updated">Loading...</span>
+              </div>
+              <button id="clear-cache-button" class="button">Clear Cache</button>
+            </div>
+            
+            <div class="settings-card">
+              <h3>Application Information</h3>
+              <div class="setting-item">
+                <label>Version:</label>
+                <span>1.0.0</span>
+              </div>
+              <div class="setting-item">
+                <label>Server Time:</label>
+                <span id="server-time">Loading...</span>
+              </div>
+            </div>
+            
+            <div class="settings-card">
+              <h3>About</h3>
+              <p>
+                This application retrieves and displays user and queue data from Genesys Cloud. It provides a dashboard with statistics, 
+                a user list with filtering and pagination, and queue information.
+              </p>
+              <p>
+                For more information about the Genesys Cloud API, visit the 
+                <a href="https://developer.genesys.cloud/" target="_blank">Genesys Cloud Developer Center</a>.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- User Detail Modal -->
+        <div id="user-modal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 id="modal-user-name">User Details</h2>
+              <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+              <div class="user-details">
+                <div class="user-avatar">
+                  <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="user-info">
+                  <div class="info-item">
+                    <label>Email:</label>
+                    <span id="modal-user-email"></span>
+                  </div>
+                  <div class="info-item">
+                    <label>Username:</label>
+                    <span id="modal-user-username"></span>
+                  </div>
+                  <div class="info-item">
+                    <label>Department:</label>
+                    <span id="modal-user-department"></span>
+                  </div>
+                  <div class="info-item">
+                    <label>Title:</label>
+                    <span id="modal-user-title"></span>
+                  </div>
+                  <div class="info-item">
+                    <label>Status:</label>
+                    <span id="modal-user-status"></span>
+                  </div>
+                  <div class="info-item">
+                    <label>Presence:</label>
+                    <span id="modal-user-presence"></span>
+                  </div>
+                  <div class="info-item">
+                    <label>Phone:</label>
+                    <span id="modal-user-phone"></span>
+                  </div>
+                  <div class="info-item">
+                    <label>ID:</label>
+                    <span id="modal-user-id"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Queue Detail Modal -->
+        <div id="queue-modal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 id="modal-queue-name">Queue Details</h2>
+              <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+              <div class="queue-details">
+                <div class="info-item">
+                  <label>Description:</label>
+                  <span id="modal-queue-description"></span>
+                </div>
+                <div class="info-item">
+                  <label>Type:</label>
+                  <span id="modal-queue-type"></span>
+                </div>
+                <div class="info-item">
+                  <label>ID:</label>
+                  <span id="modal-queue-id"></span>
+                </div>
+                <div class="info-item">
+                  <label>Last Modified:</label>
+                  <span id="modal-queue-modified"></span>
+                </div>
+              </div>
+              
+              <h3>Queue Members</h3>
+              <div class="table-container">
+                <table id="queue-members-table">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Joined</th>
+                      <th>Ring Number</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td colspan="3" class="loading-message">Loading queue members...</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="app-footer">
+      <p>&copy; 2023 Genesys Cloud Dashboard</p>
+    </footer>
+  </div>
+
+  <!-- Loading Overlay -->
+  <div id="loading-overlay">
+    <div class="spinner"></div>
+    <p>Loading data...</p>
+  </div>
+
+  <!-- Toast Notifications -->
+  <div id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
