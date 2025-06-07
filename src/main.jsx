@@ -5,7 +5,7 @@ import { AuthProvider } from './context/AuthContext'
 import { ThemeProvider } from './context/ThemeContext'
 import './index.css'
 
-// Add Buffer polyfill for browser environment
+// Add Buffer polyfill
 import { Buffer } from 'buffer'
 window.Buffer = Buffer
 

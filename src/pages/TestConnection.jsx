@@ -1,15 +1,45 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { testConnection } from '../utils/genesysApi'
-import { FaCheckCircle, FaTimesCircle, FaCog } from 'react-icons/fa'
+import { FaCheckCircle, FaTimesCircle, FaCog, FaInfoCircle } from 'react-icons/fa'
 
 const TestConnection = () => {
   const [clientId, setClientId] = useState(import.meta.env.VITE_GENESYS_CLIENT_ID || '')
-  const [clientSecret, setClientSecret] = useState(import.meta.env.VITE_GENESYS_CLIENT_SECRET || '')
   const [environment, setEnvironment] = useState(import.meta.env.VITE_GENESYS_ENVIRONMENT || 'usw2.pure.cloud')
   const [testing, setTesting] = useState(false)
   const [result, setResult] = useState(null)
   const [showDetails, setShowDetails] = useState(false)
+  
+  // Get the current URL for the redirect
+  const redirectUri = `${window.location.origin}${window.location.pathname}`
+
+  // Check for token in URL on initial load
+  useEffect(() => {
+    if (window.location.hash.includes('access_token')) {
+      // Extract all parameters from the hash
+      const params = new URLSearchParams(window.location.hash.substring(1))
+      const token = params.get('access_token')
+      const error = params.get('error')
+      const errorDescription = params.get('error_description')
+      
+      if (error) {
+        setResult({
+          success: false,
+          message: `Authentication error: ${error}`,
+          details: { error, error_description: errorDescription }
+        })
+      } else if (token) {
+        setResult({
+          success: true,
+          message: 'Successfully connected to Genesys Cloud',
+          token: token
+        })
+      }
+      
+      // Clean up the URL
+      window.history.replaceState({}, document.title, window.location.pathname)
+    }
+  }, [])
 
   const handleTest = async (e) => {
     e.preventDefault()
@@ -17,9 +47,23 @@ const TestConnection = () => {
     setResult(null)
     
     try {
-      const connectionResult = await testConnection(clientId, clientSecret, environment)
-      setResult(connectionResult)
+      // Log the values being used for debugging
+      console.log('Testing connection with:', {
+        clientId,
+        redirectUri,
+        environment
+      })
+      
+      // For browser environments, we use implicit grant which will redirect
+      await testConnection(clientId, redirectUri, environment)
+      
+      // This code might not execute due to the redirect
+      setResult({
+        success: true,
+        message: 'Redirecting to Genesys Cloud for authentication...'
+      })
     } catch (err) {
+      console.error('Test connection error:', err)
       setResult({
         success: false,
         message: 'An unexpected error occurred',
@@ -36,6 +80,11 @@ const TestConnection = () => {
       <Description>
         Use this tool to test your Genesys Cloud API credentials and connection.
       </Description>
+      
+      <InfoBox>
+        <FaInfoCircle /> This application uses the OAuth Implicit Grant flow, which is suitable for browser-based applications.
+        You will be redirected to Genesys Cloud to authenticate, then returned to this page.
+      </InfoBox>
       
       <Form onSubmit={handleTest}>
         <FormGroup>
@@ -63,21 +112,20 @@ const TestConnection = () => {
         </FormGroup>
         
         <FormGroup>
-          <Label>Client Secret</Label>
+          <Label>Redirect URI</Label>
           <Input
-            type="password"
-            value={clientSecret}
-            onChange={(e) => setClientSecret(e.target.value)}
-            placeholder="Enter your Client Secret"
-            required
+            type="text"
+            value={redirectUri}
+            readOnly
+            disabled
           />
-          <HelpText>The OAuth Client Secret from Genesys Cloud</HelpText>
+          <HelpText>This URL must be added to the allowed redirect URIs in your Genesys Cloud OAuth settings</HelpText>
         </FormGroup>
         
         <TestButton type="submit" disabled={testing}>
           {testing ? (
             <>
-              <FaCog className="spinning" /> Testing Connection...
+              <FaCog className="spinning" /> Initiating Authentication...
             </>
           ) : (
             'Test Connection'
@@ -114,11 +162,12 @@ const TestConnection = () => {
               <TroubleshootingTips>
                 <h4>Troubleshooting Tips:</h4>
                 <ul>
-                  <li>Verify that your Client ID and Client Secret are correct</li>
+                  <li>Verify that your Client ID is correct</li>
                   <li>Ensure your OAuth client has the necessary scopes (analytics:read, user:read, etc.)</li>
                   <li>Check that you're using the correct environment (e.g., usw2.pure.cloud)</li>
                   <li>Verify that your OAuth client is active and not expired</li>
-                  <li>Check if your organization has IP restrictions that might be blocking access</li>
+                  <li>Make sure the redirect URI ({redirectUri}) is added to the allowed redirect URIs in your Genesys Cloud OAuth settings</li>
+                  <li>Ensure your OAuth client is configured for Implicit Grant</li>
                 </ul>
               </TroubleshootingTips>
             </>
@@ -128,6 +177,11 @@ const TestConnection = () => {
             <SuccessDetails>
               <p>Successfully authenticated with Genesys Cloud!</p>
               <p>Your OAuth token has been generated and can be used for API requests.</p>
+              {result.token && (
+                <TokenPreview>
+                  <strong>Token Preview:</strong> {result.token.substring(0, 20)}...
+                </TokenPreview>
+              )}
             </SuccessDetails>
           )}
         </ResultContainer>
@@ -150,7 +204,24 @@ const Title = styled.h1`
 
 const Description = styled.p`
   color: #666;
+  margin-bottom: 1rem;
+`
+
+const InfoBox = styled.div`
+  background-color: #e6f7ff;
+  border: 1px solid #91d5ff;
+  border-radius: 4px;
+  padding: 1rem;
   margin-bottom: 2rem;
+  display: flex;
+  align-items: flex-start;
+  
+  svg {
+    color: #1890ff;
+    margin-right: 0.75rem;
+    margin-top: 0.2rem;
+    flex-shrink: 0;
+  }
 `
 
 const Form = styled.form`
@@ -181,6 +252,11 @@ const Input = styled.input`
   &:focus {
     border-color: #e32636;
     outline: none;
+  }
+  
+  &:disabled {
+    background-color: #f5f5f5;
+    color: #666;
   }
 `
 
@@ -307,6 +383,15 @@ const SuccessDetails = styled.div`
   p {
     margin-bottom: 0.5rem;
   }
+`
+
+const TokenPreview = styled.div`
+  background-color: #f0fff4;
+  border: 1px solid #c6f6d5;
+  border-radius: 4px;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  font-family: monospace;
 `
 
 export default TestConnection
